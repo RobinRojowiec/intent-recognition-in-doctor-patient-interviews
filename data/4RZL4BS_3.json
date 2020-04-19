@@ -1,0 +1,726 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Frau Bircher, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Hatten Sie denn sowas schonmal vorher?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Noch nie vorgekommen. War irgendwas besonderes in den letzten Tagen davor?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Hatten Sie denn sowas schonmal vorher?"
+  },
+  {
+    "position": 6,
+    "utterance": "Sie mussten dann Wasserlassen in der Nacht häufig, habe ich das richtig verstanden?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Noch nie vorgekommen. War irgendwas besonderes in den letzten Tagen davor?"
+  },
+  {
+    "position": 7,
+    "utterance": "Aber der Urin sah normal aus?",
+    "classes": [
+      "SR14"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sie mussten dann Wasserlassen in der Nacht häufig, habe ich das richtig verstanden?"
+  },
+  {
+    "position": 8,
+    "utterance": "Eher rosa, ok. Haben Sie am Tag vorher, mussten Sie da viel Sitzen, oder hatten Sie einen Infekt die Tage davor?",
+    "classes": [
+      "OTHER",
+      "MV13"
+    ],
+    "previous_classes": [
+      "SUE14"
+    ],
+    "previous_utterance": "Aber der Urin sah normal aus?"
+  },
+  {
+    "position": 9,
+    "utterance": "Karten gespielt?",
+    "classes": [
+      "OTHER",
+      "MV13"
+    ],
+    "previous_classes": [
+      "OTHER",
+      "MV13"
+    ],
+    "previous_utterance": "Eher rosa, ok. Haben Sie am Tag vorher, mussten Sie da viel Sitzen, oder hatten Sie einen Infekt die Tage davor?"
+  },
+  {
+    "position": 10,
+    "utterance": "Viel gegessen, viel getrunken, geraucht?",
+    "classes": [
+      "OTHER",
+      "SF05",
+      "SF03"
+    ],
+    "previous_classes": [
+      "OTHER",
+      "MV13"
+    ],
+    "previous_utterance": "Karten gespielt?"
+  },
+  {
+    "position": 11,
+    "utterance": "Hatten Sie denn zusätzlich auch Husten zum Beispiel?",
+    "classes": [
+      "MS07"
+    ],
+    "previous_classes": [
+      "OTHER",
+      "SF05",
+      "SF03"
+    ],
+    "previous_utterance": "Viel gegessen, viel getrunken, geraucht?"
+  },
+  {
+    "position": 12,
+    "utterance": "Gar nicht?",
+    "classes": [
+      "MS07"
+    ],
+    "previous_classes": [
+      "HS07"
+    ],
+    "previous_utterance": "Hatten Sie denn zusätzlich auch Husten zum Beispiel?"
+  },
+  {
+    "position": 13,
+    "utterance": "Schwindel?",
+    "classes": [
+      "MS11"
+    ],
+    "previous_classes": [
+      "HS07"
+    ],
+    "previous_utterance": "Gar nicht?"
+  },
+  {
+    "position": 14,
+    "utterance": "Herzrhytmusstörung? Das das Herz schneller geschlagen hätte oder so Stolpern?",
+    "classes": [
+      "SR13"
+    ],
+    "previous_classes": [
+      "HS11"
+    ],
+    "previous_utterance": "Schwindel?"
+  },
+  {
+    "position": 15,
+    "utterance": "Und das haben Sie auch neu?",
+    "classes": [
+      "SR13"
+    ],
+    "previous_classes": [
+      "SUE13"
+    ],
+    "previous_utterance": "Herzrhytmusstörung? Das das Herz schneller geschlagen hätte oder so Stolpern?"
+  },
+  {
+    "position": 16,
+    "utterance": "Sind Sie denn in Kardiologischer Betreuung? Haben Sie was am Herzen bekannt?",
+    "classes": [
+      "PH08"
+    ],
+    "previous_classes": [
+      "SUE13"
+    ],
+    "previous_utterance": "Und das haben Sie auch neu?"
+  },
+  {
+    "position": 17,
+    "utterance": "Und dieses Stolpern hält das dann länger an, oder ist das immer mal wieder?",
+    "classes": [
+      "PH08"
+    ],
+    "previous_classes": [
+      "MV08"
+    ],
+    "previous_utterance": "Sind Sie denn in Kardiologischer Betreuung? Haben Sie was am Herzen bekannt?"
+  },
+  {
+    "position": 18,
+    "utterance": "Die ganze Zeit durchgehend. Haben Sie denn sonst irgendwelche Erkrankungen? Zum Beispiel eine Verschlusskrankheit an den Beinen oder mal ein Schlaganfall gehabt?",
+    "classes": [
+      "PH18",
+      "MV06"
+    ],
+    "previous_classes": [
+      "MV08"
+    ],
+    "previous_utterance": "Und dieses Stolpern hält das dann länger an, oder ist das immer mal wieder?"
+  },
+  {
+    "position": 19,
+    "utterance": "Tabletten nehmen Sie dafür, ok. Schmerzen irgendwo?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "MV18",
+      "MV06"
+    ],
+    "previous_utterance": "Die ganze Zeit durchgehend. Haben Sie denn sonst irgendwelche Erkrankungen? Zum Beispiel eine Verschlusskrankheit an den Beinen oder mal ein Schlaganfall gehabt?"
+  },
+  {
+    "position": 20,
+    "utterance": "Und der Druck ist der nur auf der Brust oder strahlt der auch aus? In den Arm aus oder in den Kiefer nach oben?",
+    "classes": [
+      "SR10"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Tabletten nehmen Sie dafür, ok. Schmerzen irgendwo?"
+  },
+  {
+    "position": 21,
+    "utterance": "An der Schilddrüse ist nichts bekannt, gell?",
+    "classes": [
+      "PH12"
+    ],
+    "previous_classes": [
+      "SUE10"
+    ],
+    "previous_utterance": "Und der Druck ist der nur auf der Brust oder strahlt der auch aus? In den Arm aus oder in den Kiefer nach oben?"
+  },
+  {
+    "position": 22,
+    "utterance": "Die ist raus? Seit wann ist die raus?",
+    "classes": [
+      "PH12"
+    ],
+    "previous_classes": [
+      "MV12"
+    ],
+    "previous_utterance": "An der Schilddrüse ist nichts bekannt, gell?"
+  },
+  {
+    "position": 23,
+    "utterance": "Und da nehmen Sie auch Tabletten?",
+    "classes": [
+      "PH12"
+    ],
+    "previous_classes": [
+      "MV12"
+    ],
+    "previous_utterance": "Die ist raus? Seit wann ist die raus?"
+  },
+  {
+    "position": 24,
+    "utterance": "Das heißt Sie nehmen was gegen/für die Schilddrüse, Blutdruck und Diabetes? Und das wars?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "MV12"
+    ],
+    "previous_utterance": "Und da nehmen Sie auch Tabletten?"
+  },
+  {
+    "position": 25,
+    "utterance": "Sonst nichts?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Das heißt Sie nehmen was gegen/für die Schilddrüse, Blutdruck und Diabetes? Und das wars?"
+  },
+  {
+    "position": 26,
+    "utterance": "Rauchen haben Sie gesagt tun Sie gar nicht, gell?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Sonst nichts?"
+  },
+  {
+    "position": 27,
+    "utterance": "Sehr gut",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Rauchen haben Sie gesagt tun Sie gar nicht, gell?"
+  },
+  {
+    "position": 28,
+    "utterance": "Irgendwelche Allergien bekannt?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sehr gut"
+  },
+  {
+    "position": 29,
+    "utterance": "Ok, aber nie mit Luftnot?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Irgendwelche Allergien bekannt?"
+  },
+  {
+    "position": 30,
+    "utterance": "Waren die Beine dick in letzer Zeit oder jetzt seit gestern? ",
+    "classes": [
+      "SR12"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Ok, aber nie mit Luftnot?"
+  },
+  {
+    "position": 31,
+    "utterance": "Und diese Luftnot haben Sie die nur in Ruhe oder auch bei Belastung wenn Sie gehen?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "SUE12"
+    ],
+    "previous_utterance": "Waren die Beine dick in letzer Zeit oder jetzt seit gestern? "
+  },
+  {
+    "position": 32,
+    "utterance": "Genau, aber wenn Sie jetzt heute Nacht auf Toilette gegangen sind wie war es dann? War die Luftnot schlechter?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Und diese Luftnot haben Sie die nur in Ruhe oder auch bei Belastung wenn Sie gehen?"
+  },
+  {
+    "position": 33,
+    "utterance": "Gibt es… Was haben Sie denn früher gemacht beruflich?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Genau, aber wenn Sie jetzt heute Nacht auf Toilette gegangen sind wie war es dann? War die Luftnot schlechter?"
+  },
+  {
+    "position": 34,
+    "utterance": "Sind Sie da immer noch aktiv?",
+    "classes": [
+      "SF07"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Gibt es… Was haben Sie denn früher gemacht beruflich?"
+  },
+  {
+    "position": 35,
+    "utterance": "Und da war in letzter Zeit nichts was Sie belastet hätte wenn Sie sich angestrengt haben?",
+    "classes": [
+      "SR04"
+    ],
+    "previous_classes": [
+      "SF07"
+    ],
+    "previous_utterance": "Sind Sie da immer noch aktiv?"
+  },
+  {
+    "position": 36,
+    "utterance": "Messen Sie denn zuhause auch mal den Puls oder den Blutdruck? ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE04"
+    ],
+    "previous_utterance": "Und da war in letzter Zeit nichts was Sie belastet hätte wenn Sie sich angestrengt haben?"
+  },
+  {
+    "position": 37,
+    "utterance": "Und da war aber alles in Ordnung immer?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Messen Sie denn zuhause auch mal den Puls oder den Blutdruck? "
+  },
+  {
+    "position": 38,
+    "utterance": "Der Puls war auch gut?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und da war aber alles in Ordnung immer?"
+  },
+  {
+    "position": 39,
+    "utterance": "Stuhlgang, Wasserlassen war aber auch alles normal?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Der Puls war auch gut?"
+  },
+  {
+    "position": 40,
+    "utterance": "Aber auch schon eher in den letzten Tagen?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Stuhlgang, Wasserlassen war aber auch alles normal?"
+  },
+  {
+    "position": 41,
+    "utterance": "Die Luftnot kam aber erst heute Nacht?",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Aber auch schon eher in den letzten Tagen?"
+  },
+  {
+    "position": 42,
+    "utterance": "Und die letzten Tage haben Sie sich aber nicht schlechter belastbar gefühlt?",
+    "classes": [
+      "SR04"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "Die Luftnot kam aber erst heute Nacht?"
+  },
+  {
+    "position": 43,
+    "utterance": "Schwindel? Kopfschmerzen?",
+    "classes": [
+      "MS09",
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE04"
+    ],
+    "previous_utterance": "Und die letzten Tage haben Sie sich aber nicht schlechter belastbar gefühlt?"
+  },
+  {
+    "position": 44,
+    "utterance": "Ihnen wird beim Atmen/Einatmen schwindelig? Oder Ihnen ist schwindelig und Sie haben das Gefühl, das Sie tiefer einatmen müssen?",
+    "classes": [
+      "MS09",
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS09",
+      "OTHER"
+    ],
+    "previous_utterance": "Schwindel? Kopfschmerzen?"
+  },
+  {
+    "position": 45,
+    "utterance": "Immer beim Einatmen?",
+    "classes": [
+      "MS09",
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS09",
+      "OTHER"
+    ],
+    "previous_utterance": "Ihnen wird beim Atmen/Einatmen schwindelig? Oder Ihnen ist schwindelig und Sie haben das Gefühl, das Sie tiefer einatmen müssen?"
+  },
+  {
+    "position": 46,
+    "utterance": "Ihnen ist flau? ",
+    "classes": [
+      "MS09",
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS09",
+      "OTHER"
+    ],
+    "previous_utterance": "Immer beim Einatmen?"
+  },
+  {
+    "position": 47,
+    "utterance": "Jetzt müssen wir erstmal schauen, was wir machen, gell?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS09",
+      "OTHER"
+    ],
+    "previous_utterance": "Ihnen ist flau? "
+  },
+  {
+    "position": 48,
+    "utterance": "Haben Sie denn jetzt eher mehr Stress gehabt auch auf dem Bauernhof?",
+    "classes": [
+      "SF17"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Jetzt müssen wir erstmal schauen, was wir machen, gell?"
+  },
+  {
+    "position": 49,
+    "utterance": "Ok, und die körperliche Belastung hat auch nicht zugenommen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF17"
+    ],
+    "previous_utterance": "Haben Sie denn jetzt eher mehr Stress gehabt auch auf dem Bauernhof?"
+  },
+  {
+    "position": 50,
+    "utterance": "Sie hatten auch noch nie eine Lungenembolie oder eine Thrombose in den Beinen?",
+    "classes": [
+      "PH06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, und die körperliche Belastung hat auch nicht zugenommen?"
+  },
+  {
+    "position": 51,
+    "utterance": "Hat der Hausarzt auch schon mal eine Ultraschall Untersuchung vom Herzen gemacht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV06"
+    ],
+    "previous_utterance": "Sie hatten auch noch nie eine Lungenembolie oder eine Thrombose in den Beinen?"
+  },
+  {
+    "position": 52,
+    "utterance": "Hat nie irgendwas gesagt? Und beim Kardiologen zu dem mussten Sie auch noch nie?",
+    "classes": [
+      "OTHER",
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Hat der Hausarzt auch schon mal eine Ultraschall Untersuchung vom Herzen gemacht?"
+  },
+  {
+    "position": 53,
+    "utterance": "Ihre Eltern, sind die alt geworden?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER",
+      "OTHER"
+    ],
+    "previous_utterance": "Hat nie irgendwas gesagt? Und beim Kardiologen zu dem mussten Sie auch noch nie?"
+  },
+  {
+    "position": 54,
+    "utterance": "Gar nichts?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ihre Eltern, sind die alt geworden?"
+  },
+  {
+    "position": 55,
+    "utterance": "Und den Diabetes wie lange haben Sie den jetzt schon?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Gar nichts?"
+  },
+  {
+    "position": 56,
+    "utterance": "Seit drei Jahren?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und den Diabetes wie lange haben Sie den jetzt schon?"
+  },
+  {
+    "position": 57,
+    "utterance": "Und den Bluthochdruck?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Seit drei Jahren?"
+  },
+  {
+    "position": 58,
+    "utterance": "Ok, und mussten aber nie mehr Medikamente einnehmen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und den Bluthochdruck?"
+  },
+  {
+    "position": 59,
+    "utterance": "Schmerzen haben Sie gesagt haben Sie nicht?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, und mussten aber nie mehr Medikamente einnehmen?"
+  },
+  {
+    "position": 60,
+    "utterance": "Und Husten auch nicht?",
+    "classes": [
+      "MS07"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Schmerzen haben Sie gesagt haben Sie nicht?"
+  },
+  {
+    "position": 61,
+    "utterance": "Haben Sie in der Nacht mal in den Spiegel geschaut?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS07"
+    ],
+    "previous_utterance": "Und Husten auch nicht?"
+  },
+  {
+    "position": 62,
+    "utterance": "Das Licht aus gelassen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie in der Nacht mal in den Spiegel geschaut?"
+  },
+  {
+    "position": 63,
+    "utterance": "Ok, Sie waren nicht besonders blass oder das der Hals besonders dick gewesen wäre? Das wissen Sie nicht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Das Licht aus gelassen?"
+  },
+  {
+    "position": 64,
+    "utterance": "Es war nur die Frage jetzt in der Nacht",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, Sie waren nicht besonders blass oder das der Hals besonders dick gewesen wäre? Das wissen Sie nicht?"
+  },
+  {
+    "position": 65,
+    "utterance": "Mussen Sie auch dann aufrecht Sitzen/Liegen zum Schlafen?",
+    "classes": [
+      "MS08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Es war nur die Frage jetzt in der Nacht"
+  },
+  {
+    "position": 66,
+    "utterance": "Und das war aber die letzten Nächte davor nicht?",
+    "classes": [
+      "MS08"
+    ],
+    "previous_classes": [
+      "HS08"
+    ],
+    "previous_utterance": "Mussen Sie auch dann aufrecht Sitzen/Liegen zum Schlafen?"
+  }
+]

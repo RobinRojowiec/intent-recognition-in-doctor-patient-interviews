@@ -1,0 +1,347 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Herr Wagner, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Ok Herr Wagner, seit wann ist es denn aufgetreten, dass es Ihnen schlechter ging mit dem Schwindel und der Atemnot?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Noch extremer? Also hat sich quasi noch verstärkt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok Herr Wagner, seit wann ist es denn aufgetreten, dass es Ihnen schlechter ging mit dem Schwindel und der Atemnot?"
+  },
+  {
+    "position": 6,
+    "utterance": "Druckschmerz im Magen, ok. Zu der Atemnot jetzt nochmal zurück. Haben Sie da auch Schmerzen in der Brust? Also so ein Druckgefühl zum Beispiel?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Noch extremer? Also hat sich quasi noch verstärkt?"
+  },
+  {
+    "position": 7,
+    "utterance": "Ok, verstehe ja absolut. Kann ich nachvollziehen",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Druckschmerz im Magen, ok. Zu der Atemnot jetzt nochmal zurück. Haben Sie da auch Schmerzen in der Brust? Also so ein Druckgefühl zum Beispiel?"
+  },
+  {
+    "position": 8,
+    "utterance": "Und wenn Sie jetzt diese Beschwerden sind die auch in Ruhe wenn Sie jetzt hier liegen? Wie geht’s Ihnen denn jetzt momentan?",
+    "classes": [
+      "MS03"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, verstehe ja absolut. Kann ich nachvollziehen"
+  },
+  {
+    "position": 9,
+    "utterance": "Besser?",
+    "classes": [
+      "MS03"
+    ],
+    "previous_classes": [
+      "HS03"
+    ],
+    "previous_utterance": "Und wenn Sie jetzt diese Beschwerden sind die auch in Ruhe wenn Sie jetzt hier liegen? Wie geht’s Ihnen denn jetzt momentan?"
+  },
+  {
+    "position": 10,
+    "utterance": "Aber auch noch da?",
+    "classes": [
+      "MS03"
+    ],
+    "previous_classes": [
+      "HS03"
+    ],
+    "previous_utterance": "Besser?"
+  },
+  {
+    "position": 11,
+    "utterance": "Sie haben gesagt, Sie haben auch so ein Druckgefühl im Magenbereich. Haben Sie da auch Schmerzen? Also so Krämpfe meine ich zum Beispiel die vielleicht auch nach dem Essen oder so auftreten?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "HS03"
+    ],
+    "previous_utterance": "Aber auch noch da?"
+  },
+  {
+    "position": 12,
+    "utterance": "Magenschmerzen?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Sie haben gesagt, Sie haben auch so ein Druckgefühl im Magenbereich. Haben Sie da auch Schmerzen? Also so Krämpfe meine ich zum Beispiel die vielleicht auch nach dem Essen oder so auftreten?"
+  },
+  {
+    "position": 13,
+    "utterance": "Und seit wann ist dieses Druckgefühl da? Ist das alles gleichzeitig aufgetreten oder war das schon eher?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Magenschmerzen?"
+  },
+  {
+    "position": 14,
+    "utterance": "Ja, kam alles zusammen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und seit wann ist dieses Druckgefühl da? Ist das alles gleichzeitig aufgetreten oder war das schon eher?"
+  },
+  {
+    "position": 15,
+    "utterance": "Ist Ihnen denn da auch was aufgefallen mit dem Stuhlgang? Hat sich da was verändert? Das Sie vielleicht Blut im Stuhl bemerkt haben? Das die Farbe verändert war?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ja, kam alles zusammen?"
+  },
+  {
+    "position": 16,
+    "utterance": "rötlich, also es könnte schon auch Blut sein?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Ist Ihnen denn da auch was aufgefallen mit dem Stuhlgang? Hat sich da was verändert? Das Sie vielleicht Blut im Stuhl bemerkt haben? Das die Farbe verändert war?"
+  },
+  {
+    "position": 17,
+    "utterance": "Und sind bei Ihnen Vorerkrankungen bekannt Herr Wagner? Nehmen Sie denn irgendwelche Medikamente?",
+    "classes": [
+      "PH01",
+      "AM02"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "rötlich, also es könnte schon auch Blut sein?"
+  },
+  {
+    "position": 18,
+    "utterance": "Sind Sie operiert worden in letzter Zeit?",
+    "classes": [
+      "PH03"
+    ],
+    "previous_classes": [
+      "MV01",
+      "AM02"
+    ],
+    "previous_utterance": "Und sind bei Ihnen Vorerkrankungen bekannt Herr Wagner? Nehmen Sie denn irgendwelche Medikamente?"
+  },
+  {
+    "position": 19,
+    "utterance": "Mit den Polyphen und so alles?",
+    "classes": [
+      "PH03"
+    ],
+    "previous_classes": [
+      "MV03"
+    ],
+    "previous_utterance": "Sind Sie operiert worden in letzter Zeit?"
+  },
+  {
+    "position": 20,
+    "utterance": "In letzter Zeit gar nicht?",
+    "classes": [
+      "PH03"
+    ],
+    "previous_classes": [
+      "MV03"
+    ],
+    "previous_utterance": "Mit den Polyphen und so alles?"
+  },
+  {
+    "position": 21,
+    "utterance": "Haben Sie denn. Sie haben ja erzählt, dass der Urin so rötlich ist. Haben Sie da..",
+    "classes": [
+      "SR06",
+      "SUE14"
+    ],
+    "previous_classes": [
+      "MV03"
+    ],
+    "previous_utterance": "In letzter Zeit gar nicht?"
+  },
+  {
+    "position": 22,
+    "utterance": "Manchmal genau. Haben Sie denn da auch so Koliken vielleicht? Also so krampfartige Beschwerden im Unterleib eher?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE06",
+      "SUE14"
+    ],
+    "previous_utterance": "Haben Sie denn. Sie haben ja erzählt, dass der Urin so rötlich ist. Haben Sie da.."
+  },
+  {
+    "position": 23,
+    "utterance": "Und brennen beim Wasserlassen?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Manchmal genau. Haben Sie denn da auch so Koliken vielleicht? Also so krampfartige Beschwerden im Unterleib eher?"
+  },
+  {
+    "position": 24,
+    "utterance": "Auch nicht? Und das Sie da irgendwie vermehrt Wasser lassen müssen oder so ist auch nicht?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Und brennen beim Wasserlassen?"
+  },
+  {
+    "position": 25,
+    "utterance": "Das ist schon auffällig würden Sie sagen, oder?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Auch nicht? Und das Sie da irgendwie vermehrt Wasser lassen müssen oder so ist auch nicht?"
+  },
+  {
+    "position": 26,
+    "utterance": "Waren Sie da mal beim Urologen zufällig in letzter Zeit?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Das ist schon auffällig würden Sie sagen, oder?"
+  },
+  {
+    "position": 27,
+    "utterance": "Ja, das verstehe ich",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Waren Sie da mal beim Urologen zufällig in letzter Zeit?"
+  },
+  {
+    "position": 28,
+    "utterance": "Wie ist es denn in Ihrer Familie? Ist denn da irgendwas bekannt? Beispielsweise Darmerkrankungen oder mit der Prostata, der Blase?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ja, das verstehe ich"
+  },
+  {
+    "position": 29,
+    "utterance": "Gut, also bösartige Erkrankungen wissen Sie jetzt auch nichts?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Wie ist es denn in Ihrer Familie? Ist denn da irgendwas bekannt? Beispielsweise Darmerkrankungen oder mit der Prostata, der Blase?"
+  },
+  {
+    "position": 30,
+    "utterance": "Sie waren ja jetzt beim Hausarzt sind Sie da regelmäßig auch zu diesen Check-ups? Frage ich jetzt deswegen, bei Ihnen ist…",
+    "classes": [
+      "PH14"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Gut, also bösartige Erkrankungen wissen Sie jetzt auch nichts?"
+  },
+  {
+    "position": 31,
+    "utterance": "Ok, aber auch weils Ihnen gut ging nehme ich mal an, oder in der Zeit?",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "MV14"
+    ],
+    "previous_utterance": "Sie waren ja jetzt beim Hausarzt sind Sie da regelmäßig auch zu diesen Check-ups? Frage ich jetzt deswegen, bei Ihnen ist…"
+  },
+  {
+    "position": 32,
+    "utterance": "In letzter Zeit Herr Wagner ist Ihnen da vielleicht auch oder wenn ich jetzt so Nachfrage, hatten Sie da öfter Infekte? Schnupfen, Erkältungen?",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "Ok, aber auch weils Ihnen gut ging nehme ich mal an, oder in der Zeit?"
+  },
+  {
+    "position": 33,
+    "utterance": "Und Fieber jetzt aktuell haben Sie?",
+    "classes": [
+      "SR08"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "In letzter Zeit Herr Wagner ist Ihnen da vielleicht auch oder wenn ich jetzt so Nachfrage, hatten Sie da öfter Infekte? Schnupfen, Erkältungen?"
+  }
+]

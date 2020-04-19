@@ -1,0 +1,892 @@
+[
+  {
+    "position": 2,
+    "utterance": "Hatten Sie das schon vorher oder ist es das erste mal?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "HS03"
+    ],
+    "previous_utterance": "Ok, und wie geht es Ihnen jetzt?"
+  },
+  {
+    "position": 4,
+    "utterance": "Und Sie waren jetzt nicht am Sprinten sondern wirklich normales Joggen und dann kam das auf einmal, dass Sie keine Luft hatten, dann ist Ihnen schwarz vor Augen geworden, also Sie sind komplett bewusstlos geworden?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "Und dann ist das plötzlich aufgetreten, oder? "
+  },
+  {
+    "position": 5,
+    "utterance": "Ok und wie lange waren Sie bewusstlos?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und Sie waren jetzt nicht am Sprinten sondern wirklich normales Joggen und dann kam das auf einmal, dass Sie keine Luft hatten, dann ist Ihnen schwarz vor Augen geworden, also Sie sind komplett bewusstlos geworden?"
+  },
+  {
+    "position": 6,
+    "utterance": "Und jetzt haben Sie immer noch Atemnot?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok und wie lange waren Sie bewusstlos?"
+  },
+  {
+    "position": 7,
+    "utterance": "Herzrasen?",
+    "classes": [
+      "SR13"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und jetzt haben Sie immer noch Atemnot?"
+  },
+  {
+    "position": 8,
+    "utterance": "Und Schwindel?",
+    "classes": [
+      "MS11"
+    ],
+    "previous_classes": [
+      "SUE13"
+    ],
+    "previous_utterance": "Herzrasen?"
+  },
+  {
+    "position": 9,
+    "utterance": "Und sonst irgendwelche anderen Symptome noch?",
+    "classes": [
+      "MS11"
+    ],
+    "previous_classes": [
+      "HS11"
+    ],
+    "previous_utterance": "Und Schwindel?"
+  },
+  {
+    "position": 10,
+    "utterance": "Ok und das ist erstmal nicht aufgetreten bei Belastung?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "HS11"
+    ],
+    "previous_utterance": "Und sonst irgendwelche anderen Symptome noch?"
+  },
+  {
+    "position": 11,
+    "utterance": "Sonst irgendwelche Vorerkrankungen? Haben Sie irgendwelche Vorerkrankungen?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Ok und das ist erstmal nicht aufgetreten bei Belastung?"
+  },
+  {
+    "position": 12,
+    "utterance": "Wie wurde das festgestellt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Sonst irgendwelche Vorerkrankungen? Haben Sie irgendwelche Vorerkrankungen?"
+  },
+  {
+    "position": 13,
+    "utterance": "Eine was hatten Sie? Eine Ausschabung?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wie wurde das festgestellt?"
+  },
+  {
+    "position": 14,
+    "utterance": "Und wann war das? Vor einem halben Jahr?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Eine was hatten Sie? Eine Ausschabung?"
+  },
+  {
+    "position": 15,
+    "utterance": "Ok. Und wissen Sie was für eine Gerinnungsstörung Sie haben?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und wann war das? Vor einem halben Jahr?"
+  },
+  {
+    "position": 16,
+    "utterance": "Und nehmen Sie irgendwelche Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok. Und wissen Sie was für eine Gerinnungsstörung Sie haben?"
+  },
+  {
+    "position": 17,
+    "utterance": "Und aber bei dieser Gerinnungsstörung waren Sie vorher nie symptomatisch praktisch?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Und nehmen Sie irgendwelche Medikamente?"
+  },
+  {
+    "position": 18,
+    "utterance": "Also hatten Sie irgendwann mal eine Thrombose, oder?",
+    "classes": [
+      "PH06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und aber bei dieser Gerinnungsstörung waren Sie vorher nie symptomatisch praktisch?"
+  },
+  {
+    "position": 19,
+    "utterance": "Und gibt es in der Familie irgendwelche Erkrankungen?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "MV06"
+    ],
+    "previous_utterance": "Also hatten Sie irgendwann mal eine Thrombose, oder?"
+  },
+  {
+    "position": 20,
+    "utterance": "Und vor diesem Ereignis waren Sie irgendwie, hatten Sie einen Langstreckenflug oder haben Sie irgendwas, waren Sie solange Immobil? Also das Sie nicht viel gemacht haben?",
+    "classes": [
+      "PH04",
+      "SF11"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Und gibt es in der Familie irgendwelche Erkrankungen?"
+  },
+  {
+    "position": 21,
+    "utterance": "Also Sie machen regelmäßig Sport und?",
+    "classes": [
+      "SF12"
+    ],
+    "previous_classes": [
+      "MV04",
+      "SF11"
+    ],
+    "previous_utterance": "Und vor diesem Ereignis waren Sie irgendwie, hatten Sie einen Langstreckenflug oder haben Sie irgendwas, waren Sie solange Immobil? Also das Sie nicht viel gemacht haben?"
+  },
+  {
+    "position": 22,
+    "utterance": "Wann war Ihre letzte Untersuchung beim Hausarzt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF12"
+    ],
+    "previous_utterance": "Also Sie machen regelmäßig Sport und?"
+  },
+  {
+    "position": 23,
+    "utterance": "Haben Sie andere Symptome die ich jetzt noch nicht befragt habe, die aber wichtig wären zu wissen?",
+    "classes": [
+      "MS11"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wann war Ihre letzte Untersuchung beim Hausarzt?"
+  },
+  {
+    "position": 24,
+    "utterance": "Hatten Sie einen Infekt vor kurzem gehabt? Eine Influenza oder eine Grippe?",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "HS11"
+    ],
+    "previous_utterance": "Haben Sie andere Symptome die ich jetzt noch nicht befragt habe, die aber wichtig wären zu wissen?"
+  },
+  {
+    "position": 25,
+    "utterance": "Sonst irgendwas anders gewesen in den letzten Wochen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "Hatten Sie einen Infekt vor kurzem gehabt? Eine Influenza oder eine Grippe?"
+  },
+  {
+    "position": 26,
+    "utterance": "Und diese Atemnot ist jetzt seit diesem Vorfall?",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sonst irgendwas anders gewesen in den letzten Wochen?"
+  },
+  {
+    "position": 27,
+    "utterance": "Und Sie haben Husten dazu, der ist trocken. ",
+    "classes": [
+      "MS07"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "Und diese Atemnot ist jetzt seit diesem Vorfall?"
+  },
+  {
+    "position": 28,
+    "utterance": "Schwindel haben Sie auch?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "HS07"
+    ],
+    "previous_utterance": "Und Sie haben Husten dazu, der ist trocken. "
+  },
+  {
+    "position": 29,
+    "utterance": "Und Herzrasen?",
+    "classes": [
+      "SR13"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Schwindel haben Sie auch?"
+  },
+  {
+    "position": 30,
+    "utterance": "Übelkeit, Erbrechen nicht?",
+    "classes": [
+      "OTHER",
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE13"
+    ],
+    "previous_utterance": "Und Herzrasen?"
+  },
+  {
+    "position": 31,
+    "utterance": "Wurde außer der Gerinnungsstörung noch etwas anderes festgestellt warum Sie diese Fehlgeburten haben?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER",
+      "OTHER"
+    ],
+    "previous_utterance": "Übelkeit, Erbrechen nicht?"
+  },
+  {
+    "position": 32,
+    "utterance": "Und wie ist Ihr Zustand jetzt? Also was haben Sie jetzt aktuell für Beschwerden?",
+    "classes": [
+      "MS03"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wurde außer der Gerinnungsstörung noch etwas anderes festgestellt warum Sie diese Fehlgeburten haben?"
+  },
+  {
+    "position": 33,
+    "utterance": "Wo genau sticht es? Überall oder Lokalisiert?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS03"
+    ],
+    "previous_utterance": "Und wie ist Ihr Zustand jetzt? Also was haben Sie jetzt aktuell für Beschwerden?"
+  },
+  {
+    "position": 34,
+    "utterance": "Also im rechten Unterbauch, oder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wo genau sticht es? Überall oder Lokalisiert?"
+  },
+  {
+    "position": 35,
+    "utterance": "Und es ist nur rechtsseitig?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also im rechten Unterbauch, oder?"
+  },
+  {
+    "position": 36,
+    "utterance": "Und beim Aus- oder beim Einatmen tut es weh?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und es ist nur rechtsseitig?"
+  },
+  {
+    "position": 37,
+    "utterance": "Und haben Sie aktuell dann auch Kopfschmerzen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und beim Aus- oder beim Einatmen tut es weh?"
+  },
+  {
+    "position": 38,
+    "utterance": "Was ist das für ein Schmerz? Drückend, Ziehend, Stechend?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und haben Sie aktuell dann auch Kopfschmerzen?"
+  },
+  {
+    "position": 39,
+    "utterance": "Diffus? Über den ganzen Kopf verteilt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Was ist das für ein Schmerz? Drückend, Ziehend, Stechend?"
+  },
+  {
+    "position": 40,
+    "utterance": "Und der ist nicht stärker geworden und der ist konstant geblieben?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Diffus? Über den ganzen Kopf verteilt?"
+  },
+  {
+    "position": 41,
+    "utterance": "Was haben Sie genommen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und der ist nicht stärker geworden und der ist konstant geblieben?"
+  },
+  {
+    "position": 42,
+    "utterance": "Und Schüttelfrost haben Sie seit wann? Auch seit gestern Abend?",
+    "classes": [
+      "SR08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Was haben Sie genommen?"
+  },
+  {
+    "position": 43,
+    "utterance": "Und Fieber haben Sie auch gemessen, oder?",
+    "classes": [
+      "SR08"
+    ],
+    "previous_classes": [
+      "SUE08"
+    ],
+    "previous_utterance": "Und Schüttelfrost haben Sie seit wann? Auch seit gestern Abend?"
+  },
+  {
+    "position": 44,
+    "utterance": "Also nochmal: Luftnot, Herzrasen auch?",
+    "classes": [
+      "SR13"
+    ],
+    "previous_classes": [
+      "SUE08"
+    ],
+    "previous_utterance": "Und Fieber haben Sie auch gemessen, oder?"
+  },
+  {
+    "position": 45,
+    "utterance": "Bei Belastung praktisch?",
+    "classes": [
+      "MS04",
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE13"
+    ],
+    "previous_utterance": "Also nochmal: Luftnot, Herzrasen auch?"
+  },
+  {
+    "position": 46,
+    "utterance": "Haben Sie auch Schwindel?",
+    "classes": [
+      "MS11"
+    ],
+    "previous_classes": [
+      "HS04",
+      "OTHER"
+    ],
+    "previous_utterance": "Bei Belastung praktisch?"
+  },
+  {
+    "position": 47,
+    "utterance": "Und war das schon seit längerem so, dass Sie nicht die Treppen steigen können?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS11"
+    ],
+    "previous_utterance": "Haben Sie auch Schwindel?"
+  },
+  {
+    "position": 48,
+    "utterance": "Also es ist seit gestern?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und war das schon seit längerem so, dass Sie nicht die Treppen steigen können?"
+  },
+  {
+    "position": 49,
+    "utterance": "Und plötzlich eingetreten? Sie haben davor nicht irgendwas gemacht, was das ausgelöst haben könnte? Zum Beispiel eine Bewegung, Sport oder…?",
+    "classes": [
+      "OTHER",
+      "HS06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also es ist seit gestern?"
+  },
+  {
+    "position": 50,
+    "utterance": "Und Sie sitzen gerade so mit dem Oberkörper erhoben, also Sie können sich nicht flach hinlegen?",
+    "classes": [
+      "MS08"
+    ],
+    "previous_classes": [
+      "OTHER",
+      "HS06"
+    ],
+    "previous_utterance": "Und plötzlich eingetreten? Sie haben davor nicht irgendwas gemacht, was das ausgelöst haben könnte? Zum Beispiel eine Bewegung, Sport oder…?"
+  },
+  {
+    "position": 51,
+    "utterance": "Sonst haben Sie Beschwerden? Haben Sie Übelkeit oder Erbrechen gehabt? ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS08"
+    ],
+    "previous_utterance": "Und Sie sitzen gerade so mit dem Oberkörper erhoben, also Sie können sich nicht flach hinlegen?"
+  },
+  {
+    "position": 52,
+    "utterance": "Bauchschmerzen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sonst haben Sie Beschwerden? Haben Sie Übelkeit oder Erbrechen gehabt? "
+  },
+  {
+    "position": 53,
+    "utterance": "Sonst Schmerzen beim Wasserlassen?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Bauchschmerzen?"
+  },
+  {
+    "position": 54,
+    "utterance": "Ok, die Urinfarbe war auch normal?",
+    "classes": [
+      "SR14"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Sonst Schmerzen beim Wasserlassen?"
+  },
+  {
+    "position": 55,
+    "utterance": "Und irgendwie das Ihre Beine geschwollen sind? Oder das Sie nachts auf Toilette müssen haben Sie auch nicht?",
+    "classes": [
+      "SR12"
+    ],
+    "previous_classes": [
+      "SUE14"
+    ],
+    "previous_utterance": "Ok, die Urinfarbe war auch normal?"
+  },
+  {
+    "position": 56,
+    "utterance": "Gibt es irgendwelche Vorerkrankungen bei Ihnen?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "SUE12"
+    ],
+    "previous_utterance": "Und irgendwie das Ihre Beine geschwollen sind? Oder das Sie nachts auf Toilette müssen haben Sie auch nicht?"
+  },
+  {
+    "position": 57,
+    "utterance": "Was kriegen Sie denn?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Gibt es irgendwelche Vorerkrankungen bei Ihnen?"
+  },
+  {
+    "position": 58,
+    "utterance": "Und das ist gut eingestellt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Was kriegen Sie denn?"
+  },
+  {
+    "position": 59,
+    "utterance": "Sonst irgendwelche Erkrankungen? Diabetes oder irgendwelche Genetischen? Asthma?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und das ist gut eingestellt?"
+  },
+  {
+    "position": 60,
+    "utterance": "Und in der Familie irgendwelche Erkrankungen?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Sonst irgendwelche Erkrankungen? Diabetes oder irgendwelche Genetischen? Asthma?"
+  },
+  {
+    "position": 61,
+    "utterance": "Und Medikamente nehmen Sie nur das Mittel gegen den Bluthochdruck?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Und in der Familie irgendwelche Erkrankungen?"
+  },
+  {
+    "position": 62,
+    "utterance": "Ok und Kopfschmerzen haben Sie auch noch bis jetzt? ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Und Medikamente nehmen Sie nur das Mittel gegen den Bluthochdruck?"
+  },
+  {
+    "position": 63,
+    "utterance": "Habe ich irgendwas vergessen, was Sie noch als wichtig erachten?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok und Kopfschmerzen haben Sie auch noch bis jetzt? "
+  },
+  {
+    "position": 64,
+    "utterance": "Ok gut, dann habe ich keine weiteren Fragen. Außer Sie haben noch Fragen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Habe ich irgendwas vergessen, was Sie noch als wichtig erachten?"
+  },
+  {
+    "position": 65,
+    "utterance": "Seit ein paar Monaten. Und Sie haben Unterschenkelödeme Und Sie müssen Nachts auf die Toilette?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok gut, dann habe ich keine weiteren Fragen. Außer Sie haben noch Fragen?"
+  },
+  {
+    "position": 66,
+    "utterance": "Und seit wann genau? Also seit paar Monaten. Können Sie sagen, das da irgendwas passiert ist und Sie dann…?",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Seit ein paar Monaten. Und Sie haben Unterschenkelödeme Und Sie müssen Nachts auf die Toilette?"
+  },
+  {
+    "position": 67,
+    "utterance": "Und das ist seit paar Monaten und ist zunehmend. Also der Zustand wird immer schlechter gerade?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "Und seit wann genau? Also seit paar Monaten. Können Sie sagen, das da irgendwas passiert ist und Sie dann…?"
+  },
+  {
+    "position": 68,
+    "utterance": "Und gibt es in diesem Zusammenhang irgendwelche Vorerkrankungen in der Familie? Sei es Herzerkrankungen oder genetische Herzerkrankungen?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und das ist seit paar Monaten und ist zunehmend. Also der Zustand wird immer schlechter gerade?"
+  },
+  {
+    "position": 69,
+    "utterance": "Und haben Sie noch eine Schwester?",
+    "classes": [
+      "SF15"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Und gibt es in diesem Zusammenhang irgendwelche Vorerkrankungen in der Familie? Sei es Herzerkrankungen oder genetische Herzerkrankungen?"
+  },
+  {
+    "position": 70,
+    "utterance": "Und haben Sie das schonmal abklären lassen? Die Symptome? Waren Sie schonmal beim Hausarzt vielleicht, oder? ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF15"
+    ],
+    "previous_utterance": "Und haben Sie noch eine Schwester?"
+  },
+  {
+    "position": 71,
+    "utterance": "Und Sie hat Sie dann ins Krankenhaus überwiesen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und haben Sie das schonmal abklären lassen? Die Symptome? Waren Sie schonmal beim Hausarzt vielleicht, oder? "
+  },
+  {
+    "position": 72,
+    "utterance": "Und nehmen Sie noch irgendwelche Medikamente ein?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und Sie hat Sie dann ins Krankenhaus überwiesen?"
+  },
+  {
+    "position": 73,
+    "utterance": "Ramipril für die…?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Und nehmen Sie noch irgendwelche Medikamente ein?"
+  },
+  {
+    "position": 74,
+    "utterance": "Vom Hausarzt aufgeschrieben? Und seit wann nehmen Sie das?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ramipril für die…?"
+  },
+  {
+    "position": 75,
+    "utterance": "Und hat ihr Hausarzt mal ne Herzuntersuchung gemacht? Mal ein Ultraschall vom Herzen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Vom Hausarzt aufgeschrieben? Und seit wann nehmen Sie das?"
+  },
+  {
+    "position": 76,
+    "utterance": "Haben Sie noch Anmerkungen oder irgendwas was ich vergessen habe zu Fragen, was Sie sagen würden es ist wichtig um die Diagnostik zu vervollständigen. Oder etwas, was ich einfach nicht gefragt habe, für Sie aber wichtig ist?",
+    "classes": [
+      "SFF"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und hat ihr Hausarzt mal ne Herzuntersuchung gemacht? Mal ein Ultraschall vom Herzen?"
+  },
+  {
+    "position": 77,
+    "utterance": "Vielleicht kann ich ja nochmal einmal einfach damit ich auch wirklich alle Differenzialdiagnosen ausschließen kann. Haben Sie irgendwelche anderen Symptome? Sprich haben Sie Erbrechen oder Übelkeit gehabt in letzter Zeit?",
+    "classes": [
+      "MS11"
+    ],
+    "previous_classes": [
+      "SFF"
+    ],
+    "previous_utterance": "Haben Sie noch Anmerkungen oder irgendwas was ich vergessen habe zu Fragen, was Sie sagen würden es ist wichtig um die Diagnostik zu vervollständigen. Oder etwas, was ich einfach nicht gefragt habe, für Sie aber wichtig ist?"
+  },
+  {
+    "position": 78,
+    "utterance": "Fieber oder Gewichtsverlust?",
+    "classes": [
+      "SR08",
+      "SUE01"
+    ],
+    "previous_classes": [
+      "HS11"
+    ],
+    "previous_utterance": "Vielleicht kann ich ja nochmal einmal einfach damit ich auch wirklich alle Differenzialdiagnosen ausschließen kann. Haben Sie irgendwelche anderen Symptome? Sprich haben Sie Erbrechen oder Übelkeit gehabt in letzter Zeit?"
+  },
+  {
+    "position": 79,
+    "utterance": "Haben Sie beim urinieren Schmerzen?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "SUE08",
+      "SUE01"
+    ],
+    "previous_utterance": "Fieber oder Gewichtsverlust?"
+  },
+  {
+    "position": 80,
+    "utterance": "Oder Blut im Urin gehabt?",
+    "classes": [
+      "SR14"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Haben Sie beim urinieren Schmerzen?"
+  },
+  {
+    "position": 81,
+    "utterance": "Gut. Ok also praktisch das Herz, dann die Luftnot und die Unterschenkelödeme sind so die großen Problemfelder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE14"
+    ],
+    "previous_utterance": "Oder Blut im Urin gehabt?"
+  },
+  {
+    "position": 82,
+    "utterance": "Eine Sache habe ich noch. Ein EKG wurde schon geschrieben beim Hausarzt, oder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Gut. Ok also praktisch das Herz, dann die Luftnot und die Unterschenkelödeme sind so die großen Problemfelder?"
+  }
+]

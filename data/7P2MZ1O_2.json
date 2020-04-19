@@ -1,0 +1,257 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Herr Lehner, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Haben Sie die Beschwerden zum ersten mal? Ist Ihnen sowas schon mal passiert? Was derartiges?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Und da hatten Sie sowas ähnliches? Und sind auch ohnmächtig geworden?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Haben Sie die Beschwerden zum ersten mal? Ist Ihnen sowas schon mal passiert? Was derartiges?"
+  },
+  {
+    "position": 6,
+    "utterance": "Und weil Sie vorhin das Stichwort Schlaganfall gebracht haben, machen Sie sich die Sorgen weil jemand in Ihrer Familie schon mal einen Schlaganfall hatte?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Und da hatten Sie sowas ähnliches? Und sind auch ohnmächtig geworden?"
+  },
+  {
+    "position": 7,
+    "utterance": "Das war wann?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und weil Sie vorhin das Stichwort Schlaganfall gebracht haben, machen Sie sich die Sorgen weil jemand in Ihrer Familie schon mal einen Schlaganfall hatte?"
+  },
+  {
+    "position": 8,
+    "utterance": "Und haben Sie jetzt im Moment noch Schmerzen?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Das war wann?"
+  },
+  {
+    "position": 9,
+    "utterance": "Hatten Sie in den letzten Tagen auch schon Kopfschmerzen? Irgendwie Infektzeichen? Husten, schleimmiger Hals?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Und haben Sie jetzt im Moment noch Schmerzen?"
+  },
+  {
+    "position": 10,
+    "utterance": "Und dieses Kribbeln haben Sie das im Moment auch?",
+    "classes": [
+      "SR11"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Hatten Sie in den letzten Tagen auch schon Kopfschmerzen? Irgendwie Infektzeichen? Husten, schleimmiger Hals?"
+  },
+  {
+    "position": 11,
+    "utterance": "In den Händen und in den Füßen sagen Sie. Aber nicht in den Armen, Oberarmen oder Oberschenkeln oder sowas?",
+    "classes": [
+      "SR11"
+    ],
+    "previous_classes": [
+      "SUE11"
+    ],
+    "previous_utterance": "Und dieses Kribbeln haben Sie das im Moment auch?"
+  },
+  {
+    "position": 12,
+    "utterance": "Treiben Sie normalerweise Sport?",
+    "classes": [
+      "SF12"
+    ],
+    "previous_classes": [
+      "SUE11"
+    ],
+    "previous_utterance": "In den Händen und in den Füßen sagen Sie. Aber nicht in den Armen, Oberarmen oder Oberschenkeln oder sowas?"
+  },
+  {
+    "position": 13,
+    "utterance": "Sie sind eigentlich sportlich?",
+    "classes": [
+      "SF12"
+    ],
+    "previous_classes": [
+      "SF12"
+    ],
+    "previous_utterance": "Treiben Sie normalerweise Sport?"
+  },
+  {
+    "position": 14,
+    "utterance": "Nehmen Sie Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "SF12"
+    ],
+    "previous_utterance": "Sie sind eigentlich sportlich?"
+  },
+  {
+    "position": 15,
+    "utterance": "Haben Sie Allergien die bekannt sind?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Nehmen Sie Medikamente?"
+  },
+  {
+    "position": 16,
+    "utterance": "Rauchen Sie?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Haben Sie Allergien die bekannt sind?"
+  },
+  {
+    "position": 17,
+    "utterance": "Und Alkohol?",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Rauchen Sie?"
+  },
+  {
+    "position": 18,
+    "utterance": "Sie können aber die Finger und die Zehen ganz normal bewegen, oder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "Und Alkohol?"
+  },
+  {
+    "position": 19,
+    "utterance": "Und ist Ihnen irgendwas sonst aufgefallen was Sie loswerden wollen? Irgendwelche Auffälligkeiten? Schmerzen? An der Haut irgendwas?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sie können aber die Finger und die Zehen ganz normal bewegen, oder?"
+  },
+  {
+    "position": 20,
+    "utterance": "Was machen Sie denn von Beruf, wenn ich fragen darf?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und ist Ihnen irgendwas sonst aufgefallen was Sie loswerden wollen? Irgendwelche Auffälligkeiten? Schmerzen? An der Haut irgendwas?"
+  },
+  {
+    "position": 21,
+    "utterance": "Ist das der richtige Beruf für Sie? Haben Sie das Gefühl?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Was machen Sie denn von Beruf, wenn ich fragen darf?"
+  },
+  {
+    "position": 22,
+    "utterance": "In Ihren Albträumen geht es auch nicht um Ihre Arbeit? Also ist die Arbeitsbelastung, glauben Sie ist jetzt kein Grund für ihre Situation?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Ist das der richtige Beruf für Sie? Haben Sie das Gefühl?"
+  },
+  {
+    "position": 23,
+    "utterance": "Aber das hat irgendwann eingesetzt? Also es war in letzter Zeit mehr, oder wie beschreiben Sie das?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "In Ihren Albträumen geht es auch nicht um Ihre Arbeit? Also ist die Arbeitsbelastung, glauben Sie ist jetzt kein Grund für ihre Situation?"
+  },
+  {
+    "position": 24,
+    "utterance": "Gibt es irgendwelche Krankheiten in Ihrer Familie?",
+    "classes": [
+      "SF10",
+      "SF16"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Aber das hat irgendwann eingesetzt? Also es war in letzter Zeit mehr, oder wie beschreiben Sie das?"
+  },
+  {
+    "position": 25,
+    "utterance": "Haben Sie ein regelrechtes Erstickungsgefühl? Ist das mit dem Luft holen so schlimm das es..?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF10",
+      "SF16"
+    ],
+    "previous_utterance": "Gibt es irgendwelche Krankheiten in Ihrer Familie?"
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Frau Bircher, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Also Sie sagen, Sie müssen oft Wasser lassen, oder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Und Schmerzhaft? tut das weh bei Wasserlassen?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also Sie sagen, Sie müssen oft Wasser lassen, oder?"
+  },
+  {
+    "position": 6,
+    "utterance": "Und der Urin ist auch nicht komisch gefärbt oder riecht stark?",
+    "classes": [
+      "SR14"
+    ],
+    "previous_classes": [
+      "SUE06"
+    ],
+    "previous_utterance": "Und Schmerzhaft? tut das weh bei Wasserlassen?"
+  },
+  {
+    "position": 7,
+    "utterance": "Und haben Sie, also waren Sie  schonmal in letzter Zeit mit Ärzten im Kontakt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE14"
+    ],
+    "previous_utterance": "Und der Urin ist auch nicht komisch gefärbt oder riecht stark?"
+  },
+  {
+    "position": 8,
+    "utterance": "Körperliche Untersuchung ist kein Teil der Studie, oder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und haben Sie, also waren Sie  schonmal in letzter Zeit mit Ärzten im Kontakt?"
+  },
+  {
+    "position": 9,
+    "utterance": "Also fällt es Ihnen auch schwer zum Beispiel beim Treppensteigen? Kommen Sie da leicht außer Atem?",
+    "classes": [
+      "SR04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Körperliche Untersuchung ist kein Teil der Studie, oder?"
+  },
+  {
+    "position": 10,
+    "utterance": "Und waren Sie schonmal wegen Herzproblem bei einem Arzt? Also speziell wegen dem Herzen?",
+    "classes": [
+      "PH08"
+    ],
+    "previous_classes": [
+      "SUE04"
+    ],
+    "previous_utterance": "Also fällt es Ihnen auch schwer zum Beispiel beim Treppensteigen? Kommen Sie da leicht außer Atem?"
+  },
+  {
+    "position": 11,
+    "utterance": "Und mit der Niere war da mal irgendwas bekannt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV08"
+    ],
+    "previous_utterance": "Und waren Sie schonmal wegen Herzproblem bei einem Arzt? Also speziell wegen dem Herzen?"
+  },
+  {
+    "position": 12,
+    "utterance": "Und wann waren Sie denn das letzte mal beim Arzt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und mit der Niere war da mal irgendwas bekannt?"
+  },
+  {
+    "position": 13,
+    "utterance": "Und haben Sie jetzt im Moment Schmerzen?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und wann waren Sie denn das letzte mal beim Arzt?"
+  },
+  {
+    "position": 14,
+    "utterance": "Und so wie Sie jetz liegen ist es besser nehme ich an? Also wenn sie so aufrecht sitzen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Und haben Sie jetzt im Moment Schmerzen?"
+  },
+  {
+    "position": 15,
+    "utterance": "Und wenn Sie sich ganz flach hinlegen würden, wäre das schlecht?",
+    "classes": [
+      "MS08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und so wie Sie jetz liegen ist es besser nehme ich an? Also wenn sie so aufrecht sitzen?"
+  },
+  {
+    "position": 16,
+    "utterance": "Und nehmen Sie irgendwelche Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "HS08"
+    ],
+    "previous_utterance": "Und wenn Sie sich ganz flach hinlegen würden, wäre das schlecht?"
+  },
+  {
+    "position": 17,
+    "utterance": "Und haben Sie eine Allergie?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Und nehmen Sie irgendwelche Medikamente?"
+  },
+  {
+    "position": 18,
+    "utterance": "Und sind Sie schon mal irgendwie operiert worden?",
+    "classes": [
+      "PH03"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Und haben Sie eine Allergie?"
+  },
+  {
+    "position": 19,
+    "utterance": "Aber in den letzten Jahren war also kein größerer Eingriff?",
+    "classes": [
+      "PH03"
+    ],
+    "previous_classes": [
+      "MV03"
+    ],
+    "previous_utterance": "Und sind Sie schon mal irgendwie operiert worden?"
+  },
+  {
+    "position": 20,
+    "utterance": "Rauchen Sie?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "MV03"
+    ],
+    "previous_utterance": "Aber in den letzten Jahren war also kein größerer Eingriff?"
+  },
+  {
+    "position": 21,
+    "utterance": "Wenn Ich jetzt nochmal zusammen fassen darf, also Sie müssen sehr oft Wasser lassen aber es ist nicht Schmerzhaft und es ist für Sie angenehmer aufrecht zu liegen, also mit erhöhtem Oberkörper.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Rauchen Sie?"
+  },
+  {
+    "position": 22,
+    "utterance": "Also so schlimm?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wenn Ich jetzt nochmal zusammen fassen darf, also Sie müssen sehr oft Wasser lassen aber es ist nicht Schmerzhaft und es ist für Sie angenehmer aufrecht zu liegen, also mit erhöhtem Oberkörper."
+  },
+  {
+    "position": 23,
+    "utterance": "Sind die Beine dick öfters?",
+    "classes": [
+      "SR12"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also so schlimm?"
+  },
+  {
+    "position": 24,
+    "utterance": "Waren Sie in letzter Zeit krank? Also keine Infekte oder so?",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "SUE12"
+    ],
+    "previous_utterance": "Sind die Beine dick öfters?"
+  },
+  {
+    "position": 25,
+    "utterance": "Wollen Sie noch etwas los werden? Ist irgendwas auffällig?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "Waren Sie in letzter Zeit krank? Also keine Infekte oder so?"
+  },
+  {
+    "position": 26,
+    "utterance": "Und der Urin war rötlich haben Sie gesagt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wollen Sie noch etwas los werden? Ist irgendwas auffällig?"
+  },
+  {
+    "position": 27,
+    "utterance": "Aber so ziehende, wiederkehrende Schmerzen haben Sie nicht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und der Urin war rötlich haben Sie gesagt?"
+  },
+  {
+    "position": 28,
+    "utterance": "Ich denke schon, ja.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Aber so ziehende, wiederkehrende Schmerzen haben Sie nicht?"
+  },
+  {
+    "position": 29,
+    "utterance": "Ja ich nehem fast an das Sie da bleiben müssen für 1-2 Tage",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ich denke schon, ja."
+  },
+  {
+    "position": 30,
+    "utterance": "Ja aber vielleicht können Sie eine Vertretung organisieren. Aber ich denke Ihre Gesundheit geht vor",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ja ich nehem fast an das Sie da bleiben müssen für 1-2 Tage"
+  },
+  {
+    "position": 31,
+    "utterance": "Ganz so schnell geht das doch nicht",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ja aber vielleicht können Sie eine Vertretung organisieren. Aber ich denke Ihre Gesundheit geht vor"
+  }
+]

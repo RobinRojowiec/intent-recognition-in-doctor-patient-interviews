@@ -1,0 +1,288 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Herr Lehner, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "So Herr Lehner der Schwindel ist der immernoch jetzt da?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Hatten Sie sowas schon mal?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "So Herr Lehner der Schwindel ist der immernoch jetzt da?"
+  },
+  {
+    "position": 6,
+    "utterance": "Und die hat ganz plötzlich eingesetzt oder langsam angefangen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Hatten Sie sowas schon mal?"
+  },
+  {
+    "position": 7,
+    "utterance": "Also das war so plötzlich da?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und die hat ganz plötzlich eingesetzt oder langsam angefangen?"
+  },
+  {
+    "position": 8,
+    "utterance": "Haben Sie irgendwas besonderes davor gemacht? Irgendwas gegessen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also das war so plötzlich da?"
+  },
+  {
+    "position": 9,
+    "utterance": "Und da ist das dann schon mal vorgekommen?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie irgendwas besonderes davor gemacht? Irgendwas gegessen?"
+  },
+  {
+    "position": 10,
+    "utterance": "Waren Sie deshalb schon mal beim Arzt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Und da ist das dann schon mal vorgekommen?"
+  },
+  {
+    "position": 11,
+    "utterance": "Haben Sie bisschen hyperventiliert bevor Sie dieses Kribbeln empfunden haben? Also einfach sehr sehr tief geschnaufft und schnell?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Waren Sie deshalb schon mal beim Arzt?"
+  },
+  {
+    "position": 12,
+    "utterance": "Sie sind jetzt 38, oder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie bisschen hyperventiliert bevor Sie dieses Kribbeln empfunden haben? Also einfach sehr sehr tief geschnaufft und schnell?"
+  },
+  {
+    "position": 13,
+    "utterance": "Haben Sie irgendwelche Vorerkrankungen?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sie sind jetzt 38, oder?"
+  },
+  {
+    "position": 14,
+    "utterance": "Nichts bekannt, das heißt alles gut. Kein Diabetes am Herzen haben Sie ja gesagt haben Sie mehrfach checken lassen",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Haben Sie irgendwelche Vorerkrankungen?"
+  },
+  {
+    "position": 15,
+    "utterance": "Nehmen Sie Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Nichts bekannt, das heißt alles gut. Kein Diabetes am Herzen haben Sie ja gesagt haben Sie mehrfach checken lassen"
+  },
+  {
+    "position": 16,
+    "utterance": "Rauchen Sie?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Nehmen Sie Medikamente?"
+  },
+  {
+    "position": 17,
+    "utterance": "Trinken Sie Alkohol?",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Rauchen Sie?"
+  },
+  {
+    "position": 18,
+    "utterance": "Das heißt mit Drogen oder so haben Sie auch überhaupt nichts am Hut?",
+    "classes": [
+      "SF13"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "Trinken Sie Alkohol?"
+  },
+  {
+    "position": 19,
+    "utterance": "Haben Sie denn auch Schmerzen jetzt gerade?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "SF13"
+    ],
+    "previous_utterance": "Das heißt mit Drogen oder so haben Sie auch überhaupt nichts am Hut?"
+  },
+  {
+    "position": 20,
+    "utterance": "Kopfschmerzen? Auch seit der Schwindel kam oder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Haben Sie denn auch Schmerzen jetzt gerade?"
+  },
+  {
+    "position": 21,
+    "utterance": "Hat der Notarzt Ihnen denn schon irgendwas gegeben? Gegen diese Luft Not und so? Oder hat er Sie nur zu uns gebracht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Kopfschmerzen? Auch seit der Schwindel kam oder?"
+  },
+  {
+    "position": 22,
+    "utterance": "Ok also was ich jetzt machen würde, wäre Ihnen noch Blut abnehmen, weil wir das Notaufnahme machen, ok?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Hat der Notarzt Ihnen denn schon irgendwas gegeben? Gegen diese Luft Not und so? Oder hat er Sie nur zu uns gebracht?"
+  },
+  {
+    "position": 23,
+    "utterance": "Und dann geben wir Ihnen noch ein bisschen Sauerstoff damit Sie runterkommen. Wichtig ist vor allem das Sie versuchen sich zu beruhigen Sie sind bei uns in sehr guten Händen. Das heißt wenn akut was schlimmer wird oder werden sollte, melden Sie sich bei uns. Wir lassen Sie aufjedenfall noch hier bei uns ein bisschen schauen mal ob wir was auffälliges im Blut finden und dann werd ich aufjedenfall nochmal mit Ihnen sprechen. Ich kann Ihnen aufjedenfall schonmal entwarnung geben. Ich glaube nicht, dass Sie was schlimmes haben. Was Sie beschreiben, dass Sie jetzt schon öfter an so großen, öffentlichen Orten diese Attacken bekommen haben, das deutet eher auf etwas Psychisches hin ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok also was ich jetzt machen würde, wäre Ihnen noch Blut abnehmen, weil wir das Notaufnahme machen, ok?"
+  },
+  {
+    "position": 24,
+    "utterance": "Weiß nicht inwiefern Sie sich damit identifizieren können eventuell?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und dann geben wir Ihnen noch ein bisschen Sauerstoff damit Sie runterkommen. Wichtig ist vor allem das Sie versuchen sich zu beruhigen Sie sind bei uns in sehr guten Händen. Das heißt wenn akut was schlimmer wird oder werden sollte, melden Sie sich bei uns. Wir lassen Sie aufjedenfall noch hier bei uns ein bisschen schauen mal ob wir was auffälliges im Blut finden und dann werd ich aufjedenfall nochmal mit Ihnen sprechen. Ich kann Ihnen aufjedenfall schonmal entwarnung geben. Ich glaube nicht, dass Sie was schlimmes haben. Was Sie beschreiben, dass Sie jetzt schon öfter an so großen, öffentlichen Orten diese Attacken bekommen haben, das deutet eher auf etwas Psychisches hin "
+  },
+  {
+    "position": 25,
+    "utterance": "Operationen in der Vergangenheit hatten Sie auch keine?",
+    "classes": [
+      "PH02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Weiß nicht inwiefern Sie sich damit identifizieren können eventuell?"
+  },
+  {
+    "position": 26,
+    "utterance": "Das ist ja sehr gut",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV02"
+    ],
+    "previous_utterance": "Operationen in der Vergangenheit hatten Sie auch keine?"
+  },
+  {
+    "position": 27,
+    "utterance": "Genau, was wichtig ist, ist das Sie jetzt bei uns bleiben und wie gesagt wenn sich was verschlimmert melden Sie sich be uns. Und ansonsten kann ich Ihnen aufjedenfall schonmal eine erste Entwarnung geben ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Das ist ja sehr gut"
+  },
+  {
+    "position": 28,
+    "utterance": "Wie gesagt wir kommen wieder zu Ihnen, nehmen nochmal Blut ab und dann reden wir nochmal kurz und wenn was ist melden Sie sich bei uns, ok?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Genau, was wichtig ist, ist das Sie jetzt bei uns bleiben und wie gesagt wenn sich was verschlimmert melden Sie sich be uns. Und ansonsten kann ich Ihnen aufjedenfall schonmal eine erste Entwarnung geben "
+  }
+]

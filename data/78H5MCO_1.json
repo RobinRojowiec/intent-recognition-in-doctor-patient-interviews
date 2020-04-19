@@ -1,0 +1,940 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"War das beim Aufstehn, oder war es in Ruhe?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Gut Frau Bircher, Sie sagen heute Morgen hat das Angefangen. Gabs da einen Auslöser für?\""
+  },
+  {
+    "position": 4,
+    "utterance": "\"Wie oft mussten Sie denn raus? Wissen Sie das?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Heute Nacht schon?\""
+  },
+  {
+    "position": 5,
+    "utterance": "\"Über 5-mal? Über 10-mal?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Wie oft mussten Sie denn raus? Wissen Sie das?"
+  },
+  {
+    "position": 6,
+    "utterance": "\"Und musten auch immer auf die Toilette? Also kam auch was?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Über 5-mal? Über 10-mal?\""
+  },
+  {
+    "position": 7,
+    "utterance": "\"Hatten Sie während Sie dieser Atemnot haben auch andere Beschwerden? Schmerzen, Übelkeit?\"",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Und musten auch immer auf die Toilette? Also kam auch was?\""
+  },
+  {
+    "position": 8,
+    "utterance": "\"Hatten Sie sowas schon mal?\"",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "\"Hatten Sie während Sie dieser Atemnot haben auch andere Beschwerden? Schmerzen, Übelkeit?\""
+  },
+  {
+    "position": 9,
+    "utterance": "\"Haben sie irgendeine Vorerkrankungen am Herz oder an der Lunge?\"",
+    "classes": [
+      "PH01",
+      "MV08"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "\"Hatten Sie sowas schon mal?\""
+  },
+  {
+    "position": 10,
+    "utterance": "\"Nehmen Sie Medikamente ein?\"",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "MV01",
+      "MV08"
+    ],
+    "previous_utterance": "\"Haben sie irgendeine Vorerkrankungen am Herz oder an der Lunge?\""
+  },
+  {
+    "position": 11,
+    "utterance": "\"Was nehmen Sie da? Eltorozin?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "\"Nehmen Sie Medikamente ein?\""
+  },
+  {
+    "position": 12,
+    "utterance": "\"Und sonst?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Was nehmen Sie da? Eltorozin?\""
+  },
+  {
+    "position": 13,
+    "utterance": "\"Außerdem Bisolol nehmen Sie da noch etwas?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Und sonst?\""
+  },
+  {
+    "position": 14,
+    "utterance": "\"Aber für den Blutdruck nur das Bisolol?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Außerdem Bisolol nehmen Sie da noch etwas?\""
+  },
+  {
+    "position": 15,
+    "utterance": "\"Haben Sie Allergien?\"",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Aber für den Blutdruck nur das Bisolol?\""
+  },
+  {
+    "position": 16,
+    "utterance": "\"Rauchen Sie?\"",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "\"Haben Sie Allergien?\""
+  },
+  {
+    "position": 17,
+    "utterance": "\"Und Alkohol? Wie viel trinken Sie da?\"",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "\"Rauchen Sie?\""
+  },
+  {
+    "position": 18,
+    "utterance": "\"Einmal am Tag, oder zweimal, oder?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "\"Und Alkohol? Wie viel trinken Sie da?\""
+  },
+  {
+    "position": 19,
+    "utterance": "\"Also gelegentlich?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Einmal am Tag, oder zweimal, oder?\""
+  },
+  {
+    "position": 20,
+    "utterance": "\"Vorerkrankungen haben Sie dann an der Schilddrüse, den Bluthochdruck und den Diabetes?\"\"",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Also gelegentlich?\""
+  },
+  {
+    "position": 21,
+    "utterance": "\"Sind Sie schon mal operiert worden?\"",
+    "classes": [
+      "PH02"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "\"Vorerkrankungen haben Sie dann an der Schilddrüse, den Bluthochdruck und den Diabetes?\"\""
+  },
+  {
+    "position": 22,
+    "utterance": "\"Und da ist aber immer alles gut gegangen? Narkose gut vertragen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV02"
+    ],
+    "previous_utterance": "\"Sind Sie schon mal operiert worden?\""
+  },
+  {
+    "position": 23,
+    "utterance": "\"Was haben Sie denn beruflich gemacht? Oder was machen Sie beruflich\"",
+    "classes": [
+      "SF06",
+      "SF07"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Und da ist aber immer alles gut gegangen? Narkose gut vertragen?\""
+  },
+  {
+    "position": 24,
+    "utterance": "\"Sind Landwirtin?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF06",
+      "SF07"
+    ],
+    "previous_utterance": "\"Was haben Sie denn beruflich gemacht? Oder was machen Sie beruflich\""
+  },
+  {
+    "position": 25,
+    "utterance": "\"Viel Arbeit. Körperlich anstrengend?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Sind Landwirtin?\""
+  },
+  {
+    "position": 26,
+    "utterance": "\"Und Sie sind verheiratet dann?\"",
+    "classes": [
+      "SF08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Viel Arbeit. Körperlich anstrengend?\""
+  },
+  {
+    "position": 27,
+    "utterance": "\"Und Kinder haben Sie auch, wenn sie Kaiserschnitt hatten?\"",
+    "classes": [
+      "SF09"
+    ],
+    "previous_classes": [
+      "SF08"
+    ],
+    "previous_utterance": "\"Und Sie sind verheiratet dann?\""
+  },
+  {
+    "position": 28,
+    "utterance": "\"Ja ist viel los zuhause wahrscheinlich\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF09"
+    ],
+    "previous_utterance": "\"Und Kinder haben Sie auch, wenn sie Kaiserschnitt hatten?\""
+  },
+  {
+    "position": 29,
+    "utterance": "\"Nochmal zur Atemnot zurück zu kommen. Können Sie sagen in Ruhe oder in Anstrengung ob es mehr wird, wenn Sie Treppensteigen?\"",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Ja ist viel los zuhause wahrscheinlich\""
+  },
+  {
+    "position": 30,
+    "utterance": "\"Haben Sie bemerkt das Sie in der Nacht viel Schwitzen mussten oder Fieber hatten?\"",
+    "classes": [
+      "SR02",
+      "SUE08"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "\"Nochmal zur Atemnot zurück zu kommen. Können Sie sagen in Ruhe oder in Anstrengung ob es mehr wird, wenn Sie Treppensteigen?\""
+  },
+  {
+    "position": 31,
+    "utterance": "\"Haben Sie Gewicht verloren innerhalb der letzten Zeit?\"",
+    "classes": [
+      "SR01"
+    ],
+    "previous_classes": [
+      "SUE02",
+      "SUE08"
+    ],
+    "previous_utterance": "\"Haben Sie bemerkt das Sie in der Nacht viel Schwitzen mussten oder Fieber hatten?\""
+  },
+  {
+    "position": 32,
+    "utterance": "\"Also war beabsichtigt?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE01"
+    ],
+    "previous_utterance": "\"Haben Sie Gewicht verloren innerhalb der letzten Zeit?\""
+  },
+  {
+    "position": 33,
+    "utterance": "\"Was wiegen Sie denn? Oder was haben Sie davor gewogen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Also war beabsichtigt?\""
+  },
+  {
+    "position": 34,
+    "utterance": "\"Also zwei Kilo in einem Monat?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Was wiegen Sie denn? Oder was haben Sie davor gewogen?"
+  },
+  {
+    "position": 35,
+    "utterance": "\"An den Beinen ist Ihnen da was aufgefallen? Das Sie Wasser in den Beinen haben oder ein Bein dicker ist als das andere?\"",
+    "classes": [
+      "SR12"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Also zwei Kilo in einem Monat?\""
+  },
+  {
+    "position": 36,
+    "utterance": "\"Herzrasen oder Herzstolpern?\"",
+    "classes": [
+      "SR13"
+    ],
+    "previous_classes": [
+      "SUE12"
+    ],
+    "previous_utterance": "\"An den Beinen ist Ihnen da was aufgefallen? Das Sie Wasser in den Beinen haben oder ein Bein dicker ist als das andere?\""
+  },
+  {
+    "position": 37,
+    "utterance": "\"Schmerzen hatten Sie gesagt haben Sie keine. Auch beim Atmen nicht?\"",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "SUE13"
+    ],
+    "previous_utterance": "\"Herzrasen oder Herzstolpern?\""
+  },
+  {
+    "position": 38,
+    "utterance": "\"Sie sagen, dass hat heute Vormittag, oder vorher akut angefangen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "\"Schmerzen hatten Sie gesagt haben Sie keine. Auch beim Atmen nicht?\""
+  },
+  {
+    "position": 39,
+    "utterance": "\"Hatten Sie so etwas schon mal Herr Lehner?\"",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Sie sagen, dass hat heute Vormittag, oder vorher akut angefangen?\""
+  },
+  {
+    "position": 40,
+    "utterance": "\"Und als das angefangen hat gings aber los mit Schwindel und Unwohlsein und die Atemnot kam dann dazu? Oder wie würden Sie das beschreiben?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "\"Hatten Sie so etwas schon mal Herr Lehner?\""
+  },
+  {
+    "position": 41,
+    "utterance": "\"Gabs einen Auslöser dafür? Haben Sie was anstregendes gemacht, wie laufen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Und als das angefangen hat gings aber los mit Schwindel und Unwohlsein und die Atemnot kam dann dazu? Oder wie würden Sie das beschreiben?\""
+  },
+  {
+    "position": 42,
+    "utterance": "\"Gabs auch andere Symptome während dem, also außer dem Schwindel und der Atemnot? War Ihnen übel oder hatten sie Schmerzen?\"",
+    "classes": [
+      "MS11"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Gabs einen Auslöser dafür? Haben Sie was anstregendes gemacht, wie laufen?\""
+  },
+  {
+    "position": 43,
+    "utterance": "\"Irgendwas spezielles gegessen vorher?\"",
+    "classes": [
+      "SR03"
+    ],
+    "previous_classes": [
+      "HS11"
+    ],
+    "previous_utterance": "\"Gabs auch andere Symptome während dem, also außer dem Schwindel und der Atemnot? War Ihnen übel oder hatten sie Schmerzen?\""
+  },
+  {
+    "position": 44,
+    "utterance": "\"Allergien keine? Haben Sie andere Vorerkrankungen?\"",
+    "classes": [
+      "AM04",
+      "MV01"
+    ],
+    "previous_classes": [
+      "SUE03"
+    ],
+    "previous_utterance": "\"Irgendwas spezielles gegessen vorher?\""
+  },
+  {
+    "position": 45,
+    "utterance": "\"Medikamente die Sie einnehmen?\"",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "AM04",
+      "MV01"
+    ],
+    "previous_utterance": "\"Allergien keine? Haben Sie andere Vorerkrankungen?\""
+  },
+  {
+    "position": 46,
+    "utterance": "\"Rauchen Sie?\"",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "\"Medikamente die Sie einnehmen?\""
+  },
+  {
+    "position": 47,
+    "utterance": "\"Wie viel Alkohol trinken Sie?\"",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "\"Rauchen Sie?\""
+  },
+  {
+    "position": 48,
+    "utterance": "\"Was machen Sie beruflich?\"",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "\"Wie viel Alkohol trinken Sie?\""
+  },
+  {
+    "position": 49,
+    "utterance": "\"Sind Sie verheiratet?",
+    "classes": [
+      "SF08"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "\"Was machen Sie beruflich?\""
+  },
+  {
+    "position": 50,
+    "utterance": "\"Und leben mit der Ehefrau zusammen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF08"
+    ],
+    "previous_utterance": "\"Sind Sie verheiratet?"
+  },
+  {
+    "position": 51,
+    "utterance": "\"Zu der Atemnot nochmal. In der letzten Zeit haben Sie eine Gewichtsabnahme bemerkt? Oder vermehrt Fieber oder Schwitzen?\"",
+    "classes": [
+      "SR01",
+      "SUE02",
+      "SUE08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Und leben mit der Ehefrau zusammen?\""
+  },
+  {
+    "position": 52,
+    "utterance": "\"Wie oft kommt das vor? Das sie da so Albträume haben?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE01",
+      "SUE02",
+      "SUE08"
+    ],
+    "previous_utterance": "\"Zu der Atemnot nochmal. In der letzten Zeit haben Sie eine Gewichtsabnahme bemerkt? Oder vermehrt Fieber oder Schwitzen?\""
+  },
+  {
+    "position": 53,
+    "utterance": "\"Diese Situationen wo Ihnen so schwindelig wird, wo Sie das schon öfter hatten, wie Sie sagen. Ist das in bestimmten Situationen? Wenn Sie unterwegs sind, oder zuhause?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Wie oft kommt das vor? Das sie da so Albträume haben?\""
+  },
+  {
+    "position": 54,
+    "utterance": "\"Also in der Öffentlichkeit eher?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Diese Situationen wo Ihnen so schwindelig wird, wo Sie das schon öfter hatten, wie Sie sagen. Ist das in bestimmten Situationen? Wenn Sie unterwegs sind, oder zuhause?\""
+  },
+  {
+    "position": 55,
+    "utterance": "\"Ist Ihnen da aufgefallen das Sie schon anfangen das zu meiden in die Öffentlichkeit zu gehen?\"",
+    "classes": [
+      "MS05"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Also in der Öffentlichkeit eher?\""
+  },
+  {
+    "position": 56,
+    "utterance": "\"Und ist da bezüglich diesem Schwindel schon mal eine Abklärung erfolgt beim Hausarzt oder so?\"",
+    "classes": [
+      "PH14"
+    ],
+    "previous_classes": [
+      "HS05"
+    ],
+    "previous_utterance": "\"Ist Ihnen da aufgefallen das Sie schon anfangen das zu meiden in die Öffentlichkeit zu gehen?\""
+  },
+  {
+    "position": 57,
+    "utterance": "\"Ist nichts rausgekommen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV14"
+    ],
+    "previous_utterance": "\"Und ist da bezüglich diesem Schwindel schon mal eine Abklärung erfolgt beim Hausarzt oder so?\""
+  },
+  {
+    "position": 58,
+    "utterance": "\"Also beim Kardiologen. Und wegen dem Schwindel auch waren sie da mal beim Neurologen, HNO oder so?\"",
+    "classes": [
+      "PH19"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Ist nichts rausgekommen?\""
+  },
+  {
+    "position": 59,
+    "utterance": "\"Andere Drogen schon mal konsumiert?\"",
+    "classes": [
+      "SF13"
+    ],
+    "previous_classes": [
+      "MV19"
+    ],
+    "previous_utterance": "\"Also beim Kardiologen. Und wegen dem Schwindel auch waren sie da mal beim Neurologen, HNO oder so?\""
+  },
+  {
+    "position": 60,
+    "utterance": "\"Cannabis rauchen auch nicht?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF13"
+    ],
+    "previous_utterance": "\"Andere Drogen schon mal konsumiert?\""
+  },
+  {
+    "position": 61,
+    "utterance": "\"In der Familie gibt es da Erkrankungen?\"",
+    "classes": [
+      "SF16"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Cannabis rauchen auch nicht?\""
+  },
+  {
+    "position": 62,
+    "utterance": "\"Ok Herr Wagner, also am Wochenden war, oder gestern war das vor allem mit dem Schwindel?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF16"
+    ],
+    "previous_utterance": "\"In der Familie gibt es da Erkrankungen?\""
+  },
+  {
+    "position": 63,
+    "utterance": "\"Und schwarz vor Augen werden, Herzrasen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Ok Herr Wagner, also am Wochenden war, oder gestern war das vor allem mit dem Schwindel?\""
+  },
+  {
+    "position": 64,
+    "utterance": "\"Und die Atemnot? War die auch schon da?\"",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Und schwarz vor Augen werden, Herzrasen?\""
+  },
+  {
+    "position": 65,
+    "utterance": "\"Und die Atemnot ist dann heute dazugekommen?\"",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "\"Und die Atemnot? War die auch schon da?\""
+  },
+  {
+    "position": 66,
+    "utterance": "\"Gibt’s Situationen die das schlimmer machen? Beispielsweise wenn Sie Treppensteigen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "\"Und die Atemnot ist dann heute dazugekommen?\""
+  },
+  {
+    "position": 67,
+    "utterance": "\"Das heißt wie viele Stockwerke schaffen Sie bis Sie Pause machen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Gibt’s Situationen die das schlimmer machen? Beispielsweise wenn Sie Treppensteigen?\""
+  },
+  {
+    "position": 68,
+    "utterance": "\"Und in Ruhe ist es dann ein bisschen besser?\"",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Das heißt wie viele Stockwerke schaffen Sie bis Sie Pause machen?\""
+  },
+  {
+    "position": 69,
+    "utterance": "\"Haben Sie außer dem Schwindel, schwarz werden auch noch andere Beschwerden? Wie Übelkeit oder Schmerzen?\"",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "\"Und in Ruhe ist es dann ein bisschen besser?\""
+  },
+  {
+    "position": 70,
+    "utterance": "\"Ab und zu?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "\"Haben Sie außer dem Schwindel, schwarz werden auch noch andere Beschwerden? Wie Übelkeit oder Schmerzen?\""
+  },
+  {
+    "position": 71,
+    "utterance": "\"Mehrmals am Tag?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Ab und zu?\""
+  },
+  {
+    "position": 72,
+    "utterance": "\"Und wie stark ist dieser Druckschmerz?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Mehrmals am Tag?\""
+  },
+  {
+    "position": 73,
+    "utterance": "\"unangenehm?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Und wie stark ist dieser Druckschmerz?\""
+  },
+  {
+    "position": 74,
+    "utterance": "\"Auf einer Skala von 1-10. Wenn 10 das furchbarste ist?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"unangenehm?\""
+  },
+  {
+    "position": 75,
+    "utterance": "\"Eine 7?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Auf einer Skala von 1-10. Wenn 10 das furchbarste ist?\""
+  },
+  {
+    "position": 76,
+    "utterance": "\"Haben Sie in letzter Zeit Fieber gehabt? Oder vermehrt Fieber? Oder Nachts geschwitzt?\"",
+    "classes": [
+      "SR02",
+      "SUE08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Eine 7?\""
+  },
+  {
+    "position": 77,
+    "utterance": "\"War das Schwitzen so schlimm das Sie das Nachthemd wechseln mussten?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE02",
+      "SUE08"
+    ],
+    "previous_utterance": "\"Haben Sie in letzter Zeit Fieber gehabt? Oder vermehrt Fieber? Oder Nachts geschwitzt?\""
+  },
+  {
+    "position": 78,
+    "utterance": "\"Haben Sie Gewicht verloren in der letzten Zeit?\"",
+    "classes": [
+      "SR01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"War das Schwitzen so schlimm das Sie das Nachthemd wechseln mussten?\""
+  },
+  {
+    "position": 79,
+    "utterance": "\"In welchem Zeitraum? 6 Kilo in einem Monat, in zwei Monaten?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE01"
+    ],
+    "previous_utterance": "\"Haben Sie Gewicht verloren in der letzten Zeit?\""
+  },
+  {
+    "position": 80,
+    "utterance": "\"Haben Sie denn sonst Vorerkrankungen?\"",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"In welchem Zeitraum? 6 Kilo in einem Monat, in zwei Monaten?\""
+  },
+  {
+    "position": 81,
+    "utterance": "\"Aber Vorerkrankungen am Herz oder Zuckerkrankheit?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "\"Haben Sie denn sonst Vorerkrankungen?\""
+  },
+  {
+    "position": 82,
+    "utterance": "\"Schilddrüse?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Aber Vorerkrankungen am Herz oder Zuckerkrankheit?\""
+  },
+  {
+    "position": 83,
+    "utterance": "\"Herr Wagner nehmen Sie Medikamente ein? Regelmäßig?\"",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Schilddrüse?\""
+  },
+  {
+    "position": 84,
+    "utterance": "\"Das heißt Sie nehmen gar nichts?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "\"Herr Wagner nehmen Sie Medikamente ein? Regelmäßig?\""
+  },
+  {
+    "position": 85,
+    "utterance": "\"Wie ist es mit dem Blutdruck bei Ihnen?\"",
+    "classes": [
+      "PH15"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Das heißt Sie nehmen gar nichts?\""
+  },
+  {
+    "position": 86,
+    "utterance": "\"Wenn Sie sagen aus ihrer Sicht? Gibt’s jemanden der das nicht so sieht?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV15"
+    ],
+    "previous_utterance": "\"Wie ist es mit dem Blutdruck bei Ihnen?\""
+  }
+]

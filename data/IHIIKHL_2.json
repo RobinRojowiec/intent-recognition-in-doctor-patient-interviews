@@ -1,0 +1,332 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Herr Wagner, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Kennen Sie den Schwindel, hatten Sie das schonmal?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Ist das belastungabhängig? Das heißt, wenn Sie gestresst sind, oder was arbeiten?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Kennen Sie den Schwindel, hatten Sie das schonmal?"
+  },
+  {
+    "position": 6,
+    "utterance": "Also, Sie haben sich ausgeruht, aber es hat nicht geholfen, oder gab es irgendwelche Faktoren, die den Schwindel verbessern?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Ist das belastungabhängig? Das heißt, wenn Sie gestresst sind, oder was arbeiten?"
+  },
+  {
+    "position": 7,
+    "utterance": "Die Angst vor dem Schwindel?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also, Sie haben sich ausgeruht, aber es hat nicht geholfen, oder gab es irgendwelche Faktoren, die den Schwindel verbessern?"
+  },
+  {
+    "position": 8,
+    "utterance": "Aber hatten Sie jetzt am Wochenende anderweitig Stress?",
+    "classes": [
+      "SF17"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Die Angst vor dem Schwindel?"
+  },
+  {
+    "position": 9,
+    "utterance": "Und Anfälle sind jetzt aber die Schwindelanfälle?",
+    "classes": [
+      "SF17"
+    ],
+    "previous_classes": [
+      "SF17"
+    ],
+    "previous_utterance": "Aber hatten Sie jetzt am Wochenende anderweitig Stress?"
+  },
+  {
+    "position": 10,
+    "utterance": "Ok. Jetzt gerade bei Ihrer Hausärztin waren Sie da bewusstlos? Hatten Sie das Gefühl, Sie hätten Zeit verloren?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "SF17"
+    ],
+    "previous_utterance": "Und Anfälle sind jetzt aber die Schwindelanfälle?"
+  },
+  {
+    "position": 11,
+    "utterance": "Schwer zu sagen. Und am Wochenende? Dass Sie da irgendwie gemerkt habe, dass Ihnen schwindelig ist oder wachen Sie am Boden auf?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Ok. Jetzt gerade bei Ihrer Hausärztin waren Sie da bewusstlos? Hatten Sie das Gefühl, Sie hätten Zeit verloren?"
+  },
+  {
+    "position": 12,
+    "utterance": "Das nicht. Wie sieht es denn bei Ihnen mit Vorerkrankungen aus?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Schwer zu sagen. Und am Wochenende? Dass Sie da irgendwie gemerkt habe, dass Ihnen schwindelig ist oder wachen Sie am Boden auf?"
+  },
+  {
+    "position": 13,
+    "utterance": "Also Sie wurden an dem Blinddarm operiert und an den Mandeln?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Das nicht. Wie sieht es denn bei Ihnen mit Vorerkrankungen aus?"
+  },
+  {
+    "position": 14,
+    "utterance": "Ok. Sonst hatten Sie keine Operationen mehr?",
+    "classes": [
+      "PH02"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Also Sie wurden an dem Blinddarm operiert und an den Mandeln?"
+  },
+  {
+    "position": 15,
+    "utterance": "Haben Sie Bluthochdruck?",
+    "classes": [
+      "PH07"
+    ],
+    "previous_classes": [
+      "MV02"
+    ],
+    "previous_utterance": "Ok. Sonst hatten Sie keine Operationen mehr?"
+  },
+  {
+    "position": 16,
+    "utterance": "Nehmen Sie da Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "MV07"
+    ],
+    "previous_utterance": "Haben Sie Bluthochdruck?"
+  },
+  {
+    "position": 17,
+    "utterance": "Also nehmen Sie gar keine Medikamente regelmäßg ein?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Nehmen Sie da Medikamente?"
+  },
+  {
+    "position": 18,
+    "utterance": "Andere Herzerkrankungen? ",
+    "classes": [
+      "PH08"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Also nehmen Sie gar keine Medikamente regelmäßg ein?"
+  },
+  {
+    "position": 19,
+    "utterance": "Diabetes? ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV08"
+    ],
+    "previous_utterance": "Andere Herzerkrankungen? "
+  },
+  {
+    "position": 20,
+    "utterance": "Nicht bekannt.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Diabetes? "
+  },
+  {
+    "position": 21,
+    "utterance": "Und das bei Ihrer Hausärztin war einfach bei der Blutentnahme?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Nicht bekannt."
+  },
+  {
+    "position": 22,
+    "utterance": "Da hats Bumms gemacht.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und das bei Ihrer Hausärztin war einfach bei der Blutentnahme?"
+  },
+  {
+    "position": 23,
+    "utterance": "Dabei haben Sie sonst keine Problem?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Da hats Bumms gemacht."
+  },
+  {
+    "position": 24,
+    "utterance": "In Ihrer Familie sind da Erkrankungen bekannt?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Dabei haben Sie sonst keine Problem?"
+  },
+  {
+    "position": 25,
+    "utterance": "Ok. Haben Sie Allergien?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "In Ihrer Familie sind da Erkrankungen bekannt?"
+  },
+  {
+    "position": 26,
+    "utterance": "Nein, auch nicht.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Ok. Haben Sie Allergien?"
+  },
+  {
+    "position": 27,
+    "utterance": "Darf ich Sie fragen, was Sie machen? Sind Sie noch berufstätig?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Nein, auch nicht."
+  },
+  {
+    "position": 28,
+    "utterance": "Wann waren Sie in Syrien?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Darf ich Sie fragen, was Sie machen? Sind Sie noch berufstätig?"
+  },
+  {
+    "position": 29,
+    "utterance": "Also auch schon ein bisschen her. Und Sie leben mit Ihrer Frau zusammen?",
+    "classes": [
+      "SF08"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Wann waren Sie in Syrien?"
+  },
+  {
+    "position": 30,
+    "utterance": "Wie sieht das bei Ihnen mit Genussmitteln aus? Alkohol.",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF08"
+    ],
+    "previous_utterance": "Also auch schon ein bisschen her. Und Sie leben mit Ihrer Frau zusammen?"
+  },
+  {
+    "position": 31,
+    "utterance": "Jeden Tag, Mittag, Abends?",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "Wie sieht das bei Ihnen mit Genussmitteln aus? Alkohol."
+  },
+  {
+    "position": 32,
+    "utterance": "Ok.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "Jeden Tag, Mittag, Abends?"
+  }
+]

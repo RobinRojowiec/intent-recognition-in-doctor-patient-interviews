@@ -1,0 +1,258 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Herr Wagner, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Also jetzt war Ihnen schon schwindelig, und Sie sind dann nach einiger Zeit…",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Und haben Sie auch Schmerzen in der Brust?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also jetzt war Ihnen schon schwindelig, und Sie sind dann nach einiger Zeit…"
+  },
+  {
+    "position": 6,
+    "utterance": "Und Sie sind beim Arzt dann auch umgekippt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Und haben Sie auch Schmerzen in der Brust?"
+  },
+  {
+    "position": 7,
+    "utterance": "Wissen Sie wie lang Sie da lagen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und Sie sind beim Arzt dann auch umgekippt?"
+  },
+  {
+    "position": 8,
+    "utterance": "Und können Sie sich an alles erinnern? Oder gibt’s da eine...?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wissen Sie wie lang Sie da lagen?"
+  },
+  {
+    "position": 9,
+    "utterance": "Und also sowas hatten Sie zum ersten mal jetzt? Das sie umgekippt sind richtig?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und können Sie sich an alles erinnern? Oder gibt’s da eine...?"
+  },
+  {
+    "position": 10,
+    "utterance": "Haben Sie irgendwelche Vorerkrankungen?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Und also sowas hatten Sie zum ersten mal jetzt? Das sie umgekippt sind richtig?"
+  },
+  {
+    "position": 11,
+    "utterance": "Bluthochdruck? Oder nehmen Sie irgendwelche Medikamente?",
+    "classes": [
+      "AM02",
+      "MV07"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Haben Sie irgendwelche Vorerkrankungen?"
+  },
+  {
+    "position": 12,
+    "utterance": "Zum Schlafen. Brauchen Sie da Kissen unter dem Oberkörper?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02",
+      "MV07"
+    ],
+    "previous_utterance": "Bluthochdruck? Oder nehmen Sie irgendwelche Medikamente?"
+  },
+  {
+    "position": 13,
+    "utterance": "Aber schlafen Sie flach oder legen Sie ein paar Kissen unter den Kopf?",
+    "classes": [
+      "MS08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Zum Schlafen. Brauchen Sie da Kissen unter dem Oberkörper?"
+  },
+  {
+    "position": 14,
+    "utterance": "Müssen Sie Nachts irgendwie häufig aufs Klo?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS08"
+    ],
+    "previous_utterance": "Aber schlafen Sie flach oder legen Sie ein paar Kissen unter den Kopf?"
+  },
+  {
+    "position": 15,
+    "utterance": "Wie oft stehen Sie da so auf?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Müssen Sie Nachts irgendwie häufig aufs Klo?"
+  },
+  {
+    "position": 16,
+    "utterance": "Und sonst Zucker oder sowas?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wie oft stehen Sie da so auf?"
+  },
+  {
+    "position": 17,
+    "utterance": "Wie ist es denn mit diesem Schwindel und der Atemnot, ist es schlimmer wenn Sie sich bewegen?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und sonst Zucker oder sowas?"
+  },
+  {
+    "position": 18,
+    "utterance": "Und wenn Sie eine Pause machen, dann geht´s auch besser?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Wie ist es denn mit diesem Schwindel und der Atemnot, ist es schlimmer wenn Sie sich bewegen?"
+  },
+  {
+    "position": 19,
+    "utterance": "Also Schmerzen haben Sie gesagt, haben Sie eher keine auch nicht so ein Druckgefühl in der Brust?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Und wenn Sie eine Pause machen, dann geht´s auch besser?"
+  },
+  {
+    "position": 20,
+    "utterance": "Ne, also wenn Sie diese Atemnot entwickeln und wenn der Schwindel kommt",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also Schmerzen haben Sie gesagt, haben Sie eher keine auch nicht so ein Druckgefühl in der Brust?"
+  },
+  {
+    "position": 21,
+    "utterance": "Und diese Magenschmerzen die sind permanent da? Oder auch in den Situationen verstärkt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ne, also wenn Sie diese Atemnot entwickeln und wenn der Schwindel kommt"
+  },
+  {
+    "position": 22,
+    "utterance": "Haben Sie auch mal ohne Schwindel und Atemnot?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und diese Magenschmerzen die sind permanent da? Oder auch in den Situationen verstärkt?"
+  },
+  {
+    "position": 23,
+    "utterance": "Und haben Sie in letzter Zeit irgendwelche Husten, Schnupfen gehabt? Oder irgendeinen Infekt?",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie auch mal ohne Schwindel und Atemnot?"
+  },
+  {
+    "position": 24,
+    "utterance": "Mit Fieber auch?",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "Und haben Sie in letzter Zeit irgendwelche Husten, Schnupfen gehabt? Oder irgendeinen Infekt?"
+  },
+  {
+    "position": 25,
+    "utterance": "Und haben Sie bzw. in der Familie irgendwelche bekannten Vorerkrankungen? Also Herzinfarkte?",
+    "classes": [
+      "SF02",
+      "SF16"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "Mit Fieber auch?"
+  }
+]

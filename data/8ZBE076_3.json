@@ -1,0 +1,615 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Herr Lehner, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "So Herr Lehner wann hat das denn genau angefangen? Um wie viel Uhr? Wie viele Stunden ist es schon her?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Da kriegen Sie schlecht Luft?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "So Herr Lehner wann hat das denn genau angefangen? Um wie viel Uhr? Wie viele Stunden ist es schon her?"
+  },
+  {
+    "position": 6,
+    "utterance": "Und wo waren Sie genau wo das angefangen hat?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Da kriegen Sie schlecht Luft?"
+  },
+  {
+    "position": 7,
+    "utterance": "Sie waren draußen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und wo waren Sie genau wo das angefangen hat?"
+  },
+  {
+    "position": 8,
+    "utterance": "Und war irgendwas besonderes? Was Sie aufgeregt haben könnte?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sie waren draußen?"
+  },
+  {
+    "position": 9,
+    "utterance": "Ist das schon mal aufgetreten oder ist das das erste mal?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und war irgendwas besonderes? Was Sie aufgeregt haben könnte?"
+  },
+  {
+    "position": 10,
+    "utterance": "Ok, aber immer wenn Sie draußen waren? Also nicht alleine?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Ist das schon mal aufgetreten oder ist das das erste mal?"
+  },
+  {
+    "position": 11,
+    "utterance": "Und fühlen Sie auch Druck auf der Brust oder ist das bloß diese Atemnotsgeschichte?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Ok, aber immer wenn Sie draußen waren? Also nicht alleine?"
+  },
+  {
+    "position": 12,
+    "utterance": "Waren Sie denn in der letzten Woche krank? Fieber, Schüttelfrost irgendwas gehabt?",
+    "classes": [
+      "PH13",
+      "SUE08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und fühlen Sie auch Druck auf der Brust oder ist das bloß diese Atemnotsgeschichte?"
+  },
+  {
+    "position": 13,
+    "utterance": "Und Sie haben schon gesagt kein Asthma oder so, sind sonst irgendwelche Erkrankungen bei Ihnen vorbekannt?",
+    "classes": [
+      "AM04",
+      "MV01"
+    ],
+    "previous_classes": [
+      "MV13",
+      "SUE08"
+    ],
+    "previous_utterance": "Waren Sie denn in der letzten Woche krank? Fieber, Schüttelfrost irgendwas gehabt?"
+  },
+  {
+    "position": 14,
+    "utterance": "Bluthochdruck, Diabetes?",
+    "classes": [
+      "PH07"
+    ],
+    "previous_classes": [
+      "AM04",
+      "MV01"
+    ],
+    "previous_utterance": "Und Sie haben schon gesagt kein Asthma oder so, sind sonst irgendwelche Erkrankungen bei Ihnen vorbekannt?"
+  },
+  {
+    "position": 15,
+    "utterance": "Ist nichts bekannt?",
+    "classes": [
+      "PH07"
+    ],
+    "previous_classes": [
+      "MV07"
+    ],
+    "previous_utterance": "Bluthochdruck, Diabetes?"
+  },
+  {
+    "position": 16,
+    "utterance": "Irgendwelche Allergien gegen Birke?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "MV07"
+    ],
+    "previous_utterance": "Ist nichts bekannt?"
+  },
+  {
+    "position": 17,
+    "utterance": "Heuschnupfen auch nicht?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Irgendwelche Allergien gegen Birke?"
+  },
+  {
+    "position": 18,
+    "utterance": "Medikamente. Nehmen Sie dann regelmäßig Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Heuschnupfen auch nicht?"
+  },
+  {
+    "position": 19,
+    "utterance": "Die Kopfschmerzen haben Sie die auch seit 3-4 Stunden?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Medikamente. Nehmen Sie dann regelmäßig Medikamente?"
+  },
+  {
+    "position": 20,
+    "utterance": "Haben Sie denn sowas wie Migräne bekannt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Die Kopfschmerzen haben Sie die auch seit 3-4 Stunden?"
+  },
+  {
+    "position": 21,
+    "utterance": "Was nehmen Sie da gegen die Kopfschmerzen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie denn sowas wie Migräne bekannt?"
+  },
+  {
+    "position": 22,
+    "utterance": "Und das hilft dann auch?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Was nehmen Sie da gegen die Kopfschmerzen?"
+  },
+  {
+    "position": 23,
+    "utterance": "Ist bei Ihnen in der Familie denn sowas schonmal aufgetreten? Papa, Mama?",
+    "classes": [
+      "SF10",
+      "SF16"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und das hilft dann auch?"
+  },
+  {
+    "position": 24,
+    "utterance": "Aber sie sind sonst auch immer gesund gewesen beim Hausarzt, bei keinem ist irgendwas am Herzen bekannt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF10",
+      "SF16"
+    ],
+    "previous_utterance": "Ist bei Ihnen in der Familie denn sowas schonmal aufgetreten? Papa, Mama?"
+  },
+  {
+    "position": 25,
+    "utterance": "Und da war alles gut?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Aber sie sind sonst auch immer gesund gewesen beim Hausarzt, bei keinem ist irgendwas am Herzen bekannt?"
+  },
+  {
+    "position": 26,
+    "utterance": "Was hat der Ihnen denn geraten was Sie machen sollen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und da war alles gut?"
+  },
+  {
+    "position": 27,
+    "utterance": "Machen Sie Sport?",
+    "classes": [
+      "SF12"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Was hat der Ihnen denn geraten was Sie machen sollen?"
+  },
+  {
+    "position": 28,
+    "utterance": "Sehr gut",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF12"
+    ],
+    "previous_utterance": "Machen Sie Sport?"
+  },
+  {
+    "position": 29,
+    "utterance": "Was arbeiten Sie denn?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sehr gut"
+  },
+  {
+    "position": 30,
+    "utterance": "Ist es sehr stressig?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Was arbeiten Sie denn?"
+  },
+  {
+    "position": 31,
+    "utterance": "Ist wichtig?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Ist es sehr stressig?"
+  },
+  {
+    "position": 32,
+    "utterance": "Und Sie haben auch gesagt das es in Ihren Händen und Füßen so kribbelt?",
+    "classes": [
+      "SR11"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Ist wichtig?"
+  },
+  {
+    "position": 33,
+    "utterance": "Und das ist dann auch parallel aufgetreten?",
+    "classes": [
+      "SR11"
+    ],
+    "previous_classes": [
+      "SUE11"
+    ],
+    "previous_utterance": "Und Sie haben auch gesagt das es in Ihren Händen und Füßen so kribbelt?"
+  },
+  {
+    "position": 34,
+    "utterance": "Und haben Sie gemerkt das Sie irgendwie schneller geatmet haben?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE11"
+    ],
+    "previous_utterance": "Und das ist dann auch parallel aufgetreten?"
+  },
+  {
+    "position": 35,
+    "utterance": "Und Sie haben sich dann gesetzt oder was haben Sie dann gemacht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und haben Sie gemerkt das Sie irgendwie schneller geatmet haben?"
+  },
+  {
+    "position": 36,
+    "utterance": "Haben sich dann gesetzt und dann wurde es dann wieder gut langsam?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und Sie haben sich dann gesetzt oder was haben Sie dann gemacht?"
+  },
+  {
+    "position": 37,
+    "utterance": "Und wie ist es jetzt aktuell?",
+    "classes": [
+      "MS03"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben sich dann gesetzt und dann wurde es dann wieder gut langsam?"
+  },
+  {
+    "position": 38,
+    "utterance": "Geht’s besser?",
+    "classes": [
+      "MS03"
+    ],
+    "previous_classes": [
+      "HS03"
+    ],
+    "previous_utterance": "Und wie ist es jetzt aktuell?"
+  },
+  {
+    "position": 39,
+    "utterance": "Und ihr Herz rast? Fühlen Sie Ihr Herz rasen?",
+    "classes": [
+      "SR13"
+    ],
+    "previous_classes": [
+      "HS03"
+    ],
+    "previous_utterance": "Geht’s besser?"
+  },
+  {
+    "position": 40,
+    "utterance": "Und schon mal zusammengebrochen in diesem Zusammenhang?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "SUE13"
+    ],
+    "previous_utterance": "Und ihr Herz rast? Fühlen Sie Ihr Herz rasen?"
+  },
+  {
+    "position": 41,
+    "utterance": "Also schwarz vor Augen, wirklich kolabiert oder so?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Und schon mal zusammengebrochen in diesem Zusammenhang?"
+  },
+  {
+    "position": 42,
+    "utterance": "Gut und sonst irgendjemand versucht das abzuklären, weil Sie ein paar mal jetzt diese Attacken hatten? Waren Sie bei jemandem Anders mal oder was sagt der Hausarzt?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Also schwarz vor Augen, wirklich kolabiert oder so?"
+  },
+  {
+    "position": 43,
+    "utterance": "Leben Sie alleine oder haben Sie eine Freundin/Frau?",
+    "classes": [
+      "SF08"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Gut und sonst irgendjemand versucht das abzuklären, weil Sie ein paar mal jetzt diese Attacken hatten? Waren Sie bei jemandem Anders mal oder was sagt der Hausarzt?"
+  },
+  {
+    "position": 44,
+    "utterance": "Kinder?",
+    "classes": [
+      "SF09"
+    ],
+    "previous_classes": [
+      "SF08"
+    ],
+    "previous_utterance": "Leben Sie alleine oder haben Sie eine Freundin/Frau?"
+  },
+  {
+    "position": 45,
+    "utterance": "Sonst sind Sie auch zufrieden? Haben irgendwie auch nicht mehr Stress als sonst?",
+    "classes": [
+      "SF17"
+    ],
+    "previous_classes": [
+      "SF09"
+    ],
+    "previous_utterance": "Kinder?"
+  },
+  {
+    "position": 46,
+    "utterance": "Irgendwelche Ängste die Sie begleiten regelmäßig?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF17"
+    ],
+    "previous_utterance": "Sonst sind Sie auch zufrieden? Haben irgendwie auch nicht mehr Stress als sonst?"
+  },
+  {
+    "position": 47,
+    "utterance": "Man kann ja auch so Angst haben ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Irgendwelche Ängste die Sie begleiten regelmäßig?"
+  },
+  {
+    "position": 48,
+    "utterance": "Aber dieser Nachtschweiß, müssen Sie da wirklich das Hemd wechseln, oder ist es bloß moderat?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Man kann ja auch so Angst haben "
+  },
+  {
+    "position": 49,
+    "utterance": "Ok, aber Gewicht verloren in der letzten Zeit haben Sie keines?",
+    "classes": [
+      "SR01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Aber dieser Nachtschweiß, müssen Sie da wirklich das Hemd wechseln, oder ist es bloß moderat?"
+  },
+  {
+    "position": 50,
+    "utterance": "Medikamente nehmen Sie auch keine haben Sie gesagt",
+    "classes": [
+      "SR01"
+    ],
+    "previous_classes": [
+      "SUE01"
+    ],
+    "previous_utterance": "Ok, aber Gewicht verloren in der letzten Zeit haben Sie keines?"
+  },
+  {
+    "position": 51,
+    "utterance": "Rauchen Sie?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "SUE01"
+    ],
+    "previous_utterance": "Medikamente nehmen Sie auch keine haben Sie gesagt"
+  },
+  {
+    "position": 52,
+    "utterance": "Aber nie regelmäßig? Fünf Jahre eine Packung oder so?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Rauchen Sie?"
+  },
+  {
+    "position": 53,
+    "utterance": "Sonst irgendwelche Drogen? Regelmäßig Alkoholkonsum?",
+    "classes": [
+      "SF04",
+      "SF13"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Aber nie regelmäßig? Fünf Jahre eine Packung oder so?"
+  },
+  {
+    "position": 54,
+    "utterance": "Haben Sie denn heute schon was gegessen gehabt vorher? Also bevor das losgegangen ist?",
+    "classes": [
+      "SR03"
+    ],
+    "previous_classes": [
+      "SF04",
+      "SF13"
+    ],
+    "previous_utterance": "Sonst irgendwelche Drogen? Regelmäßig Alkoholkonsum?"
+  },
+  {
+    "position": 55,
+    "utterance": "Und getrunken auch?",
+    "classes": [
+      "SR03"
+    ],
+    "previous_classes": [
+      "SUE03"
+    ],
+    "previous_utterance": "Haben Sie denn heute schon was gegessen gehabt vorher? Also bevor das losgegangen ist?"
+  },
+  {
+    "position": 56,
+    "utterance": "2 Liter so am Tag, das schaffen Sie?",
+    "classes": [
+      "SR03"
+    ],
+    "previous_classes": [
+      "SUE03"
+    ],
+    "previous_utterance": "Und getrunken auch?"
+  },
+  {
+    "position": 57,
+    "utterance": "Super",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE03"
+    ],
+    "previous_utterance": "2 Liter so am Tag, das schaffen Sie?"
+  }
+]

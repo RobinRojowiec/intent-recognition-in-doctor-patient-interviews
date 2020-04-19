@@ -1,0 +1,283 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Herr Lehner, ich bin heute für sie zuständig in der Notaufnahme. Was führt Sie denn her?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "\"Sie sagen, dass hat heute Vormittag, oder vorher akut angefangen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "\"Hatten Sie so etwas schon mal Herr Lehner?\"",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Sie sagen, dass hat heute Vormittag, oder vorher akut angefangen?\""
+  },
+  {
+    "position": 6,
+    "utterance": "\"Und als das angefangen hat gings aber los mit Schwindel und Unwohlsein und die Atemnot kam dann dazu? Oder wie würden Sie das beschreiben?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "\"Hatten Sie so etwas schon mal Herr Lehner?\""
+  },
+  {
+    "position": 7,
+    "utterance": "\"Gabs einen Auslöser dafür? Haben Sie was anstregendes gemacht, wie laufen?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Und als das angefangen hat gings aber los mit Schwindel und Unwohlsein und die Atemnot kam dann dazu? Oder wie würden Sie das beschreiben?\""
+  },
+  {
+    "position": 8,
+    "utterance": "\"Gabs auch andere Symptome während dem, also außer dem Schwindel und der Atemnot? War Ihnen übel oder hatten sie Schmerzen?\"",
+    "classes": [
+      "MS11"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Gabs einen Auslöser dafür? Haben Sie was anstregendes gemacht, wie laufen?\""
+  },
+  {
+    "position": 9,
+    "utterance": "\"Irgendwas spezielles gegessen vorher?\"",
+    "classes": [
+      "SR03"
+    ],
+    "previous_classes": [
+      "HS11"
+    ],
+    "previous_utterance": "\"Gabs auch andere Symptome während dem, also außer dem Schwindel und der Atemnot? War Ihnen übel oder hatten sie Schmerzen?\""
+  },
+  {
+    "position": 10,
+    "utterance": "\"Allergien keine? Haben Sie andere Vorerkrankungen?\"",
+    "classes": [
+      "AM04",
+      "MV01"
+    ],
+    "previous_classes": [
+      "SUE03"
+    ],
+    "previous_utterance": "\"Irgendwas spezielles gegessen vorher?\""
+  },
+  {
+    "position": 11,
+    "utterance": "\"Medikamente die Sie einnehmen?\"",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "AM04",
+      "MV01"
+    ],
+    "previous_utterance": "\"Allergien keine? Haben Sie andere Vorerkrankungen?\""
+  },
+  {
+    "position": 12,
+    "utterance": "\"Rauchen Sie?\"",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "\"Medikamente die Sie einnehmen?\""
+  },
+  {
+    "position": 13,
+    "utterance": "\"Wie viel Alkohol trinken Sie?\"",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "\"Rauchen Sie?\""
+  },
+  {
+    "position": 14,
+    "utterance": "\"Was machen Sie beruflich?\"",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "\"Wie viel Alkohol trinken Sie?\""
+  },
+  {
+    "position": 15,
+    "utterance": "\"Sind Sie verheiratet?",
+    "classes": [
+      "SF08"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "\"Was machen Sie beruflich?\""
+  },
+  {
+    "position": 16,
+    "utterance": "\"Und leben mit der Ehefrau zusammen?\"",
+    "classes": [
+      "SF08"
+    ],
+    "previous_classes": [
+      "SF08"
+    ],
+    "previous_utterance": "\"Sind Sie verheiratet?"
+  },
+  {
+    "position": 17,
+    "utterance": "\"Zu der Atemnot nochmal. In der letzten Zeit haben Sie eine Gewichtsabnahme bemerkt? Oder vermehrt Fieber oder Schwitzen?\"",
+    "classes": [
+      "SR01",
+      "SUE02",
+      "SUE08"
+    ],
+    "previous_classes": [
+      "SF08"
+    ],
+    "previous_utterance": "\"Und leben mit der Ehefrau zusammen?\""
+  },
+  {
+    "position": 18,
+    "utterance": "\"Wie oft kommt das vor? Das sie da so Albträume haben?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE01",
+      "SUE02",
+      "SUE08"
+    ],
+    "previous_utterance": "\"Zu der Atemnot nochmal. In der letzten Zeit haben Sie eine Gewichtsabnahme bemerkt? Oder vermehrt Fieber oder Schwitzen?\""
+  },
+  {
+    "position": 19,
+    "utterance": "\"Diese Situationen wo Ihnen so schwindelig wird, wo Sie das schon öfter hatten, wie Sie sagen. Ist das in bestimmten Situationen? Wenn Sie unterwegs sind, oder zuhause?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Wie oft kommt das vor? Das sie da so Albträume haben?\""
+  },
+  {
+    "position": 20,
+    "utterance": "\"Also in der Öffentlichkeit eher?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Diese Situationen wo Ihnen so schwindelig wird, wo Sie das schon öfter hatten, wie Sie sagen. Ist das in bestimmten Situationen? Wenn Sie unterwegs sind, oder zuhause?\""
+  },
+  {
+    "position": 21,
+    "utterance": "\"Ist Ihnen da aufgefallen das Sie schon anfangen das zu meiden in die Öffentlichkeit zu gehen?\"",
+    "classes": [
+      "MS05"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "\"Also in der Öffentlichkeit eher?\""
+  },
+  {
+    "position": 22,
+    "utterance": "\"Und ist da bezüglich diesem Schwindel schon mal eine Abklärung erfolgt beim Hausarzt oder so?\"",
+    "classes": [
+      "PH14"
+    ],
+    "previous_classes": [
+      "HS05"
+    ],
+    "previous_utterance": "\"Ist Ihnen da aufgefallen das Sie schon anfangen das zu meiden in die Öffentlichkeit zu gehen?\""
+  },
+  {
+    "position": 23,
+    "utterance": "\"Ist nichts rausgekommen?\"",
+    "classes": [
+      "PH14"
+    ],
+    "previous_classes": [
+      "MV14"
+    ],
+    "previous_utterance": "\"Und ist da bezüglich diesem Schwindel schon mal eine Abklärung erfolgt beim Hausarzt oder so?\""
+  },
+  {
+    "position": 24,
+    "utterance": "\"Also beim Kardiologen. Und wegen dem Schwindel auch waren sie da mal beim Neurologen, HNO oder so?\"",
+    "classes": [
+      "PH19"
+    ],
+    "previous_classes": [
+      "MV14"
+    ],
+    "previous_utterance": "\"Ist nichts rausgekommen?\""
+  },
+  {
+    "position": 25,
+    "utterance": "\"Andere Drogen schon mal konsumiert?\"",
+    "classes": [
+      "SF13"
+    ],
+    "previous_classes": [
+      "MV19"
+    ],
+    "previous_utterance": "\"Also beim Kardiologen. Und wegen dem Schwindel auch waren sie da mal beim Neurologen, HNO oder so?\""
+  },
+  {
+    "position": 26,
+    "utterance": "\"Cannabis rauchen auch nicht?\"",
+    "classes": [
+      "SF13"
+    ],
+    "previous_classes": [
+      "SF13"
+    ],
+    "previous_utterance": "\"Andere Drogen schon mal konsumiert?\""
+  },
+  {
+    "position": 27,
+    "utterance": "\"In der Familie gibt es da Erkrankungen?\"",
+    "classes": [
+      "SF16"
+    ],
+    "previous_classes": [
+      "SF13"
+    ],
+    "previous_utterance": "\"Cannabis rauchen auch nicht?\""
+  }
+]

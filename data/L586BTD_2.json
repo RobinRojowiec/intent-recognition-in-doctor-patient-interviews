@@ -1,0 +1,393 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Frau Aimueller, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Ist Ihnen sowas schon einmal passiert?",
+    "classes": [
+      "PH06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Also das ist das erste mal das Sie sowas hatten?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "MV06"
+    ],
+    "previous_utterance": "Ist Ihnen sowas schon einmal passiert?"
+  },
+  {
+    "position": 6,
+    "utterance": "Und das haben Sie jetzt auch in Ruhe, wie ich merke. Das Sie keine Luft bekommen?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Also das ist das erste mal das Sie sowas hatten?"
+  },
+  {
+    "position": 7,
+    "utterance": "Ok und haben Sie das Gefühl, das war von einer Sekunde auf die andere so schlimm? Oder wie?",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Und das haben Sie jetzt auch in Ruhe, wie ich merke. Das Sie keine Luft bekommen?"
+  },
+  {
+    "position": 8,
+    "utterance": "Und haben Sie da irgendeinen Schmerz gespürt?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "Ok und haben Sie das Gefühl, das war von einer Sekunde auf die andere so schlimm? Oder wie?"
+  },
+  {
+    "position": 9,
+    "utterance": "Haben Sie Asthma oder so ähnliche Vorerkrankungen?",
+    "classes": [
+      "PH01",
+      "AM04"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Und haben Sie da irgendeinen Schmerz gespürt?"
+  },
+  {
+    "position": 10,
+    "utterance": "Wissen Sie genau welche, oder?",
+    "classes": [
+      "PH01",
+      "AM04"
+    ],
+    "previous_classes": [
+      "MV01",
+      "AM04"
+    ],
+    "previous_utterance": "Haben Sie Asthma oder so ähnliche Vorerkrankungen?"
+  },
+  {
+    "position": 11,
+    "utterance": "Und in letzter Zeit gings Ihnen eigentlich gut bis zu diesen Vorfall?",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "MV01",
+      "AM04"
+    ],
+    "previous_utterance": "Wissen Sie genau welche, oder?"
+  },
+  {
+    "position": 12,
+    "utterance": "Und Sie machen eigentlich immer Sport und währenddessen hatten Sie auch noch nie irgendwas?",
+    "classes": [
+      "SF12"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "Und in letzter Zeit gings Ihnen eigentlich gut bis zu diesen Vorfall?"
+  },
+  {
+    "position": 13,
+    "utterance": "Nehmen Sie irgendwelche Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "SF12"
+    ],
+    "previous_utterance": "Und Sie machen eigentlich immer Sport und währenddessen hatten Sie auch noch nie irgendwas?"
+  },
+  {
+    "position": 14,
+    "utterance": "Haben Sie irgendwelche Behandlungen gehabt aufgrund des Kinderwunsches?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Nehmen Sie irgendwelche Medikamente?"
+  },
+  {
+    "position": 15,
+    "utterance": "Und da wurden Sie aber noch nicht behandelt? Oder haben Sie da schon Medikamente bekommen?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Haben Sie irgendwelche Behandlungen gehabt aufgrund des Kinderwunsches?"
+  },
+  {
+    "position": 16,
+    "utterance": "Und haben Sie sonst Kopfweh, oder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Und da wurden Sie aber noch nicht behandelt? Oder haben Sie da schon Medikamente bekommen?"
+  },
+  {
+    "position": 17,
+    "utterance": "Und Fieber oder so? Haben Sie das gehabt?",
+    "classes": [
+      "SR08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und haben Sie sonst Kopfweh, oder?"
+  },
+  {
+    "position": 18,
+    "utterance": "Und wo ist genau der Schmerz, wenn…?",
+    "classes": [
+      "SR08"
+    ],
+    "previous_classes": [
+      "SUE08"
+    ],
+    "previous_utterance": "Und Fieber oder so? Haben Sie das gehabt?"
+  },
+  {
+    "position": 19,
+    "utterance": "Ok und haben Sie in letzter Zeit irgendwie einen langen Flug oder eine? ",
+    "classes": [
+      "SF11"
+    ],
+    "previous_classes": [
+      "SUE08"
+    ],
+    "previous_utterance": "Und wo ist genau der Schmerz, wenn…?"
+  },
+  {
+    "position": 20,
+    "utterance": "Also Sie waren immer in Bewegung?",
+    "classes": [
+      "SF12"
+    ],
+    "previous_classes": [
+      "SF11"
+    ],
+    "previous_utterance": "Ok und haben Sie in letzter Zeit irgendwie einen langen Flug oder eine? "
+  },
+  {
+    "position": 21,
+    "utterance": "Und die Gerinnungsstörung haben Sie da dass das Blut eher zu viel gerinnt oder zu wenig?",
+    "classes": [
+      "SF12"
+    ],
+    "previous_classes": [
+      "SF12"
+    ],
+    "previous_utterance": "Also Sie waren immer in Bewegung?"
+  },
+  {
+    "position": 22,
+    "utterance": "Bekommen Sie denn leicht blaue Flecken oder so?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF12"
+    ],
+    "previous_utterance": "Und die Gerinnungsstörung haben Sie da dass das Blut eher zu viel gerinnt oder zu wenig?"
+  },
+  {
+    "position": 23,
+    "utterance": "Ne? Und wenn Sie sich verletzten blutet das dann sehr oder eher nicht so?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Bekommen Sie denn leicht blaue Flecken oder so?"
+  },
+  {
+    "position": 24,
+    "utterance": "Und haben Sie schonmal eine Beinvenenthrombose gehabt oder so?",
+    "classes": [
+      "PH06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ne? Und wenn Sie sich verletzten blutet das dann sehr oder eher nicht so?"
+  },
+  {
+    "position": 25,
+    "utterance": "Und nehmen Sie, also Sie haben dann wahrscheinlich die, nehmen Sie keine Pille wenn Sie ein Kinderwunsch haben?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV06"
+    ],
+    "previous_utterance": "Und haben Sie schonmal eine Beinvenenthrombose gehabt oder so?"
+  },
+  {
+    "position": 26,
+    "utterance": "Haben Sie die früher genommen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und nehmen Sie, also Sie haben dann wahrscheinlich die, nehmen Sie keine Pille wenn Sie ein Kinderwunsch haben?"
+  },
+  {
+    "position": 27,
+    "utterance": "Also Sie hatten schon mehrer Fehlgeburten? Wissen Sie warum oder wurde das abgeklärt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie die früher genommen?"
+  },
+  {
+    "position": 28,
+    "utterance": "Wissen Sie in welcher Schwangerschaftswoche das passiert ist?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also Sie hatten schon mehrer Fehlgeburten? Wissen Sie warum oder wurde das abgeklärt?"
+  },
+  {
+    "position": 29,
+    "utterance": "Da sind Sie auf die Gerinnungsstörung drauf gekommen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wissen Sie in welcher Schwangerschaftswoche das passiert ist?"
+  },
+  {
+    "position": 30,
+    "utterance": "Ok aber da haben Sie nichts von vermehrten Blutungen gesagt, oder so irgendwas?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Da sind Sie auf die Gerinnungsstörung drauf gekommen?"
+  },
+  {
+    "position": 31,
+    "utterance": "Gibt es in Ihrer Familie noch jemand der so eine ähnliche Gerinnungsstörung hat?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok aber da haben Sie nichts von vermehrten Blutungen gesagt, oder so irgendwas?"
+  },
+  {
+    "position": 32,
+    "utterance": "Haben Sie von dem Begriff Faktor-5-Leiden-Syndrom schon mal was gehört?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Gibt es in Ihrer Familie noch jemand der so eine ähnliche Gerinnungsstörung hat?"
+  },
+  {
+    "position": 33,
+    "utterance": "Und wissen Sie, ob die Medikamente bekommen haben dafür?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie von dem Begriff Faktor-5-Leiden-Syndrom schon mal was gehört?"
+  },
+  {
+    "position": 34,
+    "utterance": "Hatten die schonmal so eine Art Lungenembolie oder eine Beinvenenthrombose?",
+    "classes": [
+      "PH06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und wissen Sie, ob die Medikamente bekommen haben dafür?"
+  },
+  {
+    "position": 35,
+    "utterance": "Allergien. Haben Sie irgendwelche Allergien?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "MV06"
+    ],
+    "previous_utterance": "Hatten die schonmal so eine Art Lungenembolie oder eine Beinvenenthrombose?"
+  },
+  {
+    "position": 36,
+    "utterance": "Und Asthma haben Sie keins haben Sie gesagt",
+    "classes": [
+      "AM04",
+      "AM04"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Allergien. Haben Sie irgendwelche Allergien?"
+  },
+  {
+    "position": 37,
+    "utterance": "Und gibt es bei Ihnen in der Familie irgendwelche sonstige Herzerkrankungen oder so?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "AM04",
+      "AM04"
+    ],
+    "previous_utterance": "Und Asthma haben Sie keins haben Sie gesagt"
+  }
+]

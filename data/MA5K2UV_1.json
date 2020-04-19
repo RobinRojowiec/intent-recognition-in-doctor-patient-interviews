@@ -1,0 +1,310 @@
+[
+  {
+    "position": 2,
+    "utterance": "Und die ganzen Tage davor waren ganz normal?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "Ist es denn erst heute Nacht gekommen?"
+  },
+  {
+    "position": 4,
+    "utterance": "Und auch die Nächte davor aber auch schon?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und mussten Sie heute Nacht dann auch auf Toilette?"
+  },
+  {
+    "position": 5,
+    "utterance": "Und haben Sie dann Atemnot als Sie im Bett lagen oder als Sie dann zur Toilette gelaufen sind?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und auch die Nächte davor aber auch schon?"
+  },
+  {
+    "position": 6,
+    "utterance": "Ok, verstehe. Aber mit dem laufen wird’s auch schlechter oder wird’s...?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und haben Sie dann Atemnot als Sie im Bett lagen oder als Sie dann zur Toilette gelaufen sind?"
+  },
+  {
+    "position": 7,
+    "utterance": "Ok und Sie müssen aber immer den Oberkörper weiter hoch?",
+    "classes": [
+      "MS08"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Ok, verstehe. Aber mit dem laufen wird’s auch schlechter oder wird’s...?"
+  },
+  {
+    "position": 8,
+    "utterance": "Haben Sie… mit wie vielen Kopfkissen schlafen Sie denn in der Nacht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS08"
+    ],
+    "previous_utterance": "Ok und Sie müssen aber immer den Oberkörper weiter hoch?"
+  },
+  {
+    "position": 9,
+    "utterance": "Ach, dann haben Sie nicht im Bett geschlafen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie… mit wie vielen Kopfkissen schlafen Sie denn in der Nacht?"
+  },
+  {
+    "position": 10,
+    "utterance": "Ja aber das war das erste mal so?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ach, dann haben Sie nicht im Bett geschlafen?"
+  },
+  {
+    "position": 11,
+    "utterance": "Und haben Sie irgendwie andere… Hatten Sie geschwollene Beine oder so teilweise?",
+    "classes": [
+      "SR12"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ja aber das war das erste mal so?"
+  },
+  {
+    "position": 12,
+    "utterance": "Das sieht jetzt nicht geschwollen aus",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE12"
+    ],
+    "previous_utterance": "Und haben Sie irgendwie andere… Hatten Sie geschwollene Beine oder so teilweise?"
+  },
+  {
+    "position": 13,
+    "utterance": "Nie?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Das sieht jetzt nicht geschwollen aus"
+  },
+  {
+    "position": 14,
+    "utterance": "Und sonstige Probleme beim Bewegen, beim Einkaufen, beim Spazierengehen hatten Sie nie?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Nie?"
+  },
+  {
+    "position": 15,
+    "utterance": "Was nehmen Sie denn für Medikamente ein?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und sonstige Probleme beim Bewegen, beim Einkaufen, beim Spazierengehen hatten Sie nie?"
+  },
+  {
+    "position": 16,
+    "utterance": "Und was… seit wann nehmen Sie das für den Diabetes?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Was nehmen Sie denn für Medikamente ein?"
+  },
+  {
+    "position": 17,
+    "utterance": "Und ansonsten nehmen Sie nie was? Nehmen Sie gar nichts?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und was… seit wann nehmen Sie das für den Diabetes?"
+  },
+  {
+    "position": 18,
+    "utterance": "Haben Sie andere Erkrankungen, Vorerkrankungen mal gehabt?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Und ansonsten nehmen Sie nie was? Nehmen Sie gar nichts?"
+  },
+  {
+    "position": 19,
+    "utterance": "Was hatten Sie für ein paar Operationen?",
+    "classes": [
+      "PH02"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Haben Sie andere Erkrankungen, Vorerkrankungen mal gehabt?"
+  },
+  {
+    "position": 20,
+    "utterance": "Schilddrüse raus und jetzt nehmen Sie Schilddrüsen Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "MV02"
+    ],
+    "previous_utterance": "Was hatten Sie für ein paar Operationen?"
+  },
+  {
+    "position": 21,
+    "utterance": "Und Kaiserschnitt. Wie viele Kinder haben Sie?",
+    "classes": [
+      "SF09"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Schilddrüse raus und jetzt nehmen Sie Schilddrüsen Medikamente?"
+  },
+  {
+    "position": 22,
+    "utterance": "Vier Kinder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF09"
+    ],
+    "previous_utterance": "Und Kaiserschnitt. Wie viele Kinder haben Sie?"
+  },
+  {
+    "position": 23,
+    "utterance": "Und die anderen ohne Kaiserschnitt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Vier Kinder?"
+  },
+  {
+    "position": 24,
+    "utterance": "Und wie alt sind die Kinder?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und die anderen ohne Kaiserschnitt?"
+  },
+  {
+    "position": 25,
+    "utterance": "Und Sie wohnen alleine oder mit Ihrem Mann?",
+    "classes": [
+      "SF08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und wie alt sind die Kinder?"
+  },
+  {
+    "position": 26,
+    "utterance": "Und die Kinder wohnen dann bei Ihnen auf dem Hof?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF08"
+    ],
+    "previous_utterance": "Und Sie wohnen alleine oder mit Ihrem Mann?"
+  },
+  {
+    "position": 27,
+    "utterance": "Bei Ihrem Mann, bei Ihren Eltern irgendwelche Vorerkrankungen? In der Familie?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und die Kinder wohnen dann bei Ihnen auf dem Hof?"
+  },
+  {
+    "position": 28,
+    "utterance": "Sehr gut, so wünscht man sich das",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Bei Ihrem Mann, bei Ihren Eltern irgendwelche Vorerkrankungen? In der Familie?"
+  },
+  {
+    "position": 29,
+    "utterance": "Und Sie haben aber… Was machen Sie an Bewegung außer halt der Arbeit?",
+    "classes": [
+      "SF12"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sehr gut, so wünscht man sich das"
+  },
+  {
+    "position": 30,
+    "utterance": "Schon, ne? Da sind Sie immer am auch arbeiten? Arbeiten noch komplett mit?",
+    "classes": [
+      "SF07"
+    ],
+    "previous_classes": [
+      "SF12"
+    ],
+    "previous_utterance": "Und Sie haben aber… Was machen Sie an Bewegung außer halt der Arbeit?"
+  }
+]

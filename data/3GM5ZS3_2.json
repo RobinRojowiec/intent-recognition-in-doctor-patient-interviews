@@ -1,0 +1,541 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Herr Albrecht, ich bin heute für Sie zuständig in der Notaufnahme. Was kann ich für Sie tun?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Und jetzt wird es schlimmer?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Was heißt das bei Anstrengung? Können Sie mir ein Beispiel nennen, wann Sie da Atemnot bekommen? Bei alltäglichen Sachen, oder ist es wenn Sie Sport treiben?"
+  },
+  {
+    "position": 5,
+    "utterance": "Schaffen Sie denn die zwei Stockwerke aufeinmal oder müssen Sie da mal stehen bleiben?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und jetzt wird es schlimmer?"
+  },
+  {
+    "position": 6,
+    "utterance": "Es kann also auch passieren, dass Sie stehen bleiben müssen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Schaffen Sie denn die zwei Stockwerke aufeinmal oder müssen Sie da mal stehen bleiben?"
+  },
+  {
+    "position": 7,
+    "utterance": "Müssen Sie nachts auch auf die Toilette?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Es kann also auch passieren, dass Sie stehen bleiben müssen?"
+  },
+  {
+    "position": 8,
+    "utterance": "Wie oft denn ungefähr?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Müssen Sie nachts auch auf die Toilette?"
+  },
+  {
+    "position": 9,
+    "utterance": "Dreimal? Ok",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wie oft denn ungefähr?"
+  },
+  {
+    "position": 10,
+    "utterance": "Und ähm, dürfte ich mal kurz Ihre Halsvenen sehen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Dreimal? Ok"
+  },
+  {
+    "position": 11,
+    "utterance": "Sind die gestaut? Wissen Sie das zufällig?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und ähm, dürfte ich mal kurz Ihre Halsvenen sehen?"
+  },
+  {
+    "position": 12,
+    "utterance": "Sind nicht gesaut? Ok.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sind die gestaut? Wissen Sie das zufällig?"
+  },
+  {
+    "position": 13,
+    "utterance": "Dann, ähm, gibt es noch was, was Ihnen wichtig ist, was Sie sagen wollen? Ansonsten würde ich Ihnen einfach noch ein paar Fragen stellen, damit wir das ein bisschen konkretisieren können, was da im Agen sein könnte. ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sind nicht gesaut? Ok."
+  },
+  {
+    "position": 14,
+    "utterance": "Zu den Schmerzen hätte ich zum Beispiel noch eine Frage. Sind die dauerhaft oder nur bei Belastung?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Dann, ähm, gibt es noch was, was Ihnen wichtig ist, was Sie sagen wollen? Ansonsten würde ich Ihnen einfach noch ein paar Fragen stellen, damit wir das ein bisschen konkretisieren können, was da im Agen sein könnte. "
+  },
+  {
+    "position": 15,
+    "utterance": "Können Sie sagen, wo die Schmerzen genau sind?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Zu den Schmerzen hätte ich zum Beispiel noch eine Frage. Sind die dauerhaft oder nur bei Belastung?"
+  },
+  {
+    "position": 16,
+    "utterance": "Sind die nur hier mittig oder strahlen die manchmal auch aus?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Können Sie sagen, wo die Schmerzen genau sind?"
+  },
+  {
+    "position": 17,
+    "utterance": "Im Brustbereich",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sind die nur hier mittig oder strahlen die manchmal auch aus?"
+  },
+  {
+    "position": 18,
+    "utterance": "N Druck. Ok",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Im Brustbereich"
+  },
+  {
+    "position": 19,
+    "utterance": "Und ähm, haben Sie beim, wenn Sie beim Atmen da Probleme haben, ist es eher so, dass Sie nur Druck haben oder hören Sie auch dass es rasselt, wenn Sie z.B. schneller ausatmen. Dass es so … wie wenn man eine schlimme Erkältung hat?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "N Druck. Ok"
+  },
+  {
+    "position": 20,
+    "utterance": "Ne?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und ähm, haben Sie beim, wenn Sie beim Atmen da Probleme haben, ist es eher so, dass Sie nur Druck haben oder hören Sie auch dass es rasselt, wenn Sie z.B. schneller ausatmen. Dass es so … wie wenn man eine schlimme Erkältung hat?"
+  },
+  {
+    "position": 21,
+    "utterance": "Ok … ok ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ne?"
+  },
+  {
+    "position": 22,
+    "utterance": "Und die Ödeme haben Sie auf beiden Seiten auf den Beinen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok … ok "
+  },
+  {
+    "position": 23,
+    "utterance": "Darf ich die Beine mal ganz kurz anschauen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und die Ödeme haben Sie auf beiden Seiten auf den Beinen?"
+  },
+  {
+    "position": 24,
+    "utterance": "Ok, Sie haben Ödeme auf beiden Seiten. Das wäre noch wichtig zu wissen.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Darf ich die Beine mal ganz kurz anschauen?"
+  },
+  {
+    "position": 25,
+    "utterance": "Ist es manchmal so, dass wenn Sie dann belastet sind, hat Ihnen da schon mal jemand gesagt, Sie hätten blaue Lippen oder blaue Nägel?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, Sie haben Ödeme auf beiden Seiten. Das wäre noch wichtig zu wissen."
+  },
+  {
+    "position": 26,
+    "utterance": "Ne? Hat noch niemand gesagt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ist es manchmal so, dass wenn Sie dann belastet sind, hat Ihnen da schon mal jemand gesagt, Sie hätten blaue Lippen oder blaue Nägel?"
+  },
+  {
+    "position": 27,
+    "utterance": "Ähm, genau … dann würde mich einfach noch interessieren, ob Sie ähm Rauchen zum Beispiel?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ne? Hat noch niemand gesagt?"
+  },
+  {
+    "position": 28,
+    "utterance": "Hm, ok und wieviel am Tagen haben Sie immer so geraucht?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Ähm, genau … dann würde mich einfach noch interessieren, ob Sie ähm Rauchen zum Beispiel?"
+  },
+  {
+    "position": 29,
+    "utterance": "Eine Schachtel. Und seit wievielen Jahren rauchen Sie so, eine Schachtel?",
+    "classes": [
+      "SF03"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Hm, ok und wieviel am Tagen haben Sie immer so geraucht?"
+  },
+  {
+    "position": 30,
+    "utterance": "Ok",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF03"
+    ],
+    "previous_utterance": "Eine Schachtel. Und seit wievielen Jahren rauchen Sie so, eine Schachtel?"
+  },
+  {
+    "position": 31,
+    "utterance": "Trinken Sie Alkohol?",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok"
+  },
+  {
+    "position": 32,
+    "utterance": "Ja. Wie viel trinken Sie da? Am Tag? So Pi mal Daumen",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "Trinken Sie Alkohol?"
+  },
+  {
+    "position": 33,
+    "utterance": "Ok, dann würde mich noch interessieren, ob es in Ihrer Familie auch Herzprobleme gibt. Vor allem eben auch in jüngeren Jahren, als jünger als 60",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "SF04"
+    ],
+    "previous_utterance": "Ja. Wie viel trinken Sie da? Am Tag? So Pi mal Daumen"
+  },
+  {
+    "position": 34,
+    "utterance": "Ok. Wie alt ist Ihr Vater?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Ok, dann würde mich noch interessieren, ob es in Ihrer Familie auch Herzprobleme gibt. Vor allem eben auch in jüngeren Jahren, als jünger als 60"
+  },
+  {
+    "position": 35,
+    "utterance": "66. Ok",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok. Wie alt ist Ihr Vater?"
+  },
+  {
+    "position": 36,
+    "utterance": "Und haben Sie das bei Ihnen mal nachgucken lassen, ob das mit dem Diabetes auch ein Thema sein könnte. Das habe ich an den Blutwerten jetzt nicht gesehen.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "66. Ok"
+  },
+  {
+    "position": 37,
+    "utterance": "Ne, oder wissen Sie´s nicht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und haben Sie das bei Ihnen mal nachgucken lassen, ob das mit dem Diabetes auch ein Thema sein könnte. Das habe ich an den Blutwerten jetzt nicht gesehen."
+  },
+  {
+    "position": 38,
+    "utterance": "Ok, was war das. Das ist interessant.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ne, oder wissen Sie´s nicht?"
+  },
+  {
+    "position": 39,
+    "utterance": "Und wissen Sie woran das lag, dass sie plötzlich gestorben sind?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, was war das. Das ist interessant."
+  },
+  {
+    "position": 40,
+    "utterance": "Ok, aber Sie wissen nicht genau was?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und wissen Sie woran das lag, dass sie plötzlich gestorben sind?"
+  },
+  {
+    "position": 41,
+    "utterance": "Ja, das glaube ich. Das ist natürlich auch eine blöde, äh ganz ganz unschöne Situation, wenn es da zwei Leuten so schlecht geht.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, aber Sie wissen nicht genau was?"
+  },
+  {
+    "position": 42,
+    "utterance": "Als letztes würde mich noch interessieren. Haben Sie Allergien, wissen Sie das?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ja, das glaube ich. Das ist natürlich auch eine blöde, äh ganz ganz unschöne Situation, wenn es da zwei Leuten so schlecht geht."
+  },
+  {
+    "position": 43,
+    "utterance": "Gräser oder so was?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Als letztes würde mich noch interessieren. Haben Sie Allergien, wissen Sie das?"
+  },
+  {
+    "position": 44,
+    "utterance": "Ähm … ansonsten … sind Sie in letzter Zeit irgendwie operiert worden?",
+    "classes": [
+      "PH03"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Gräser oder so was?"
+  },
+  {
+    "position": 45,
+    "utterance": "An den Knien?",
+    "classes": [
+      "PH03"
+    ],
+    "previous_classes": [
+      "MV03"
+    ],
+    "previous_utterance": "Ähm … ansonsten … sind Sie in letzter Zeit irgendwie operiert worden?"
+  },
+  {
+    "position": 46,
+    "utterance": "Wie lange ist das her?",
+    "classes": [
+      "PH03"
+    ],
+    "previous_classes": [
+      "MV03"
+    ],
+    "previous_utterance": "An den Knien?"
+  },
+  {
+    "position": 47,
+    "utterance": "Zwei Jahre.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV03"
+    ],
+    "previous_utterance": "Wie lange ist das her?"
+  },
+  {
+    "position": 48,
+    "utterance": "Ok, als letztes. Haben Sie vor kurzem irgendwie ne längere Flugreise gemacht oder sind lange irgendwo im Zug gesessen oder im Flugzeug.",
+    "classes": [
+      "PH04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Zwei Jahre."
+  },
+  {
+    "position": 49,
+    "utterance": "Die letzte Frage, was arbeiten Sie denn genau?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "MV04"
+    ],
+    "previous_utterance": "Ok, als letztes. Haben Sie vor kurzem irgendwie ne längere Flugreise gemacht oder sind lange irgendwo im Zug gesessen oder im Flugzeug."
+  },
+  {
+    "position": 50,
+    "utterance": "Ok, sitzen Sie da viel?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Die letzte Frage, was arbeiten Sie denn genau?"
+  },
+  {
+    "position": 51,
+    "utterance": "Sie stehen die ganze Zeit.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Ok, sitzen Sie da viel?"
+  }
+]

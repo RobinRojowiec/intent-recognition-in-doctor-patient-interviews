@@ -1,0 +1,12 @@
+xlrd==1.2.0
+pandas==0.23.4
+sklearn==0.0
+matplotlib==2.2.3
+whoosh==2.7.4
+torchtext==0.3.1
+tqdm==4.30.0
+pytorch-transformers
+torchtext==0.3.1
+spacy==2.1.4
+dill==0.3.0
+nltk

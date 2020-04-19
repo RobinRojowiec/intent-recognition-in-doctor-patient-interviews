@@ -1,0 +1,497 @@
+[
+  {
+    "position": 2,
+    "utterance": "Ok. Und bei Ihren Werten kam raus, dass Sie eventuell eine Harnblasenentzündung haben. Haben Sie da Beschwerden?",
+    "classes": [
+      "SR06"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Haben Sie heute schon was gegessen?"
+  },
+  {
+    "position": 4,
+    "utterance": "Haben Sie auch Herzbeschwerden?",
+    "classes": [
+      "PH8"
+    ],
+    "previous_classes": [
+      "SUE12"
+    ],
+    "previous_utterance": "Haben Sie auch gemerkt, dass Ihre Beine dick sind?"
+  },
+  {
+    "position": 5,
+    "utterance": "Und das ist auch neu? Dieses Herzrasen? Das kannten Sie davor noch gar nicht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV8"
+    ],
+    "previous_utterance": "Haben Sie auch Herzbeschwerden?"
+  },
+  {
+    "position": 6,
+    "utterance": "Nehmen Sie irgendwelche Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und das ist auch neu? Dieses Herzrasen? Das kannten Sie davor noch gar nicht?"
+  },
+  {
+    "position": 7,
+    "utterance": "Wie sind Sie da eigestellt, von der Schilddrüse her? War das immer gut?",
+    "classes": [
+      "PH12"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Nehmen Sie irgendwelche Medikamente?"
+  },
+  {
+    "position": 8,
+    "utterance": "Wie viel nehmen Sie da momentan?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV12"
+    ],
+    "previous_utterance": "Wie sind Sie da eigestellt, von der Schilddrüse her? War das immer gut?"
+  },
+  {
+    "position": 9,
+    "utterance": "Und damit ist im Moment alles gut.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wie viel nehmen Sie da momentan?"
+  },
+  {
+    "position": 10,
+    "utterance": "Aber Ihre Sättigung ist unter Sauerstoff gut. Sie haben aber trotzdem das Gefühl, dass es schlecht ist?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und damit ist im Moment alles gut."
+  },
+  {
+    "position": 11,
+    "utterance": "Haben Sie auch Allergien, Fr. Bircher?",
+    "classes": [
+      "AM2"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Aber Ihre Sättigung ist unter Sauerstoff gut. Sie haben aber trotzdem das Gefühl, dass es schlecht ist?"
+  },
+  {
+    "position": 12,
+    "utterance": "Haben Sie die letzten Tage gemerkt, dass Sie Fieber haben?",
+    "classes": [
+      "SR08"
+    ],
+    "previous_classes": [
+      "AM2"
+    ],
+    "previous_utterance": "Haben Sie auch Allergien, Fr. Bircher?"
+  },
+  {
+    "position": 13,
+    "utterance": "Und, dass Sie in der Nacht mehr geschwitzt hätten?",
+    "classes": [
+      "SR02"
+    ],
+    "previous_classes": [
+      "SUE08"
+    ],
+    "previous_utterance": "Haben Sie die letzten Tage gemerkt, dass Sie Fieber haben?"
+  },
+  {
+    "position": 14,
+    "utterance": "Ihr Gewicht, ist das stabil?",
+    "classes": [
+      "SR01"
+    ],
+    "previous_classes": [
+      "SUE02"
+    ],
+    "previous_utterance": "Und, dass Sie in der Nacht mehr geschwitzt hätten?"
+  },
+  {
+    "position": 15,
+    "utterance": "Aber haben Sie dementsprechend auch weniger gegessen und sich mehr bewegt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE01"
+    ],
+    "previous_utterance": "Ihr Gewicht, ist das stabil?"
+  },
+  {
+    "position": 16,
+    "utterance": "Sie haben einen Bauernhof?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Aber haben Sie dementsprechend auch weniger gegessen und sich mehr bewegt?"
+  },
+  {
+    "position": 17,
+    "utterance": "Was für Tiere haben Sie?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sie haben einen Bauernhof?"
+  },
+  {
+    "position": 18,
+    "utterance": "Trat das jetzt am Wochende auf, bei der Arbeit?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Was für Tiere haben Sie?"
+  },
+  {
+    "position": 19,
+    "utterance": "Nochmal die Medikamente, die Sie nehmen. Euthyrox, und?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Trat das jetzt am Wochende auf, bei der Arbeit?"
+  },
+  {
+    "position": 20,
+    "utterance": "Ok. Kommen Sie da gut hin mit dem Metformin?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Nochmal die Medikamente, die Sie nehmen. Euthyrox, und?"
+  },
+  {
+    "position": 21,
+    "utterance": "Und mit dem Bisoprolol, messen Sie da regelmäßg Ihren Blutdruck?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok. Kommen Sie da gut hin mit dem Metformin?"
+  },
+  {
+    "position": 22,
+    "utterance": "Ok, schön.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und mit dem Bisoprolol, messen Sie da regelmäßg Ihren Blutdruck?"
+  },
+  {
+    "position": 23,
+    "utterance": "Gut, haben Sie da nochmal weitere Diagnostik bekommen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, schön."
+  },
+  {
+    "position": 24,
+    "utterance": "Kennen Sie den Schwindel, hatten Sie das schonmal?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Gut, haben Sie da nochmal weitere Diagnostik bekommen?"
+  },
+  {
+    "position": 25,
+    "utterance": "Ist das belastungabhängig? Das heißt, wenn Sie gestresst sind, oder was arbeiten?",
+    "classes": [
+      "MS04"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Kennen Sie den Schwindel, hatten Sie das schonmal?"
+  },
+  {
+    "position": 26,
+    "utterance": "Also, Sie haben sich ausgeruht, aber es hat nicht geholfen, oder gab es irgendwelche Faktoren, die den Schwindel verbessern?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS04"
+    ],
+    "previous_utterance": "Ist das belastungabhängig? Das heißt, wenn Sie gestresst sind, oder was arbeiten?"
+  },
+  {
+    "position": 27,
+    "utterance": "Die Angst vor dem Schwindel?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also, Sie haben sich ausgeruht, aber es hat nicht geholfen, oder gab es irgendwelche Faktoren, die den Schwindel verbessern?"
+  },
+  {
+    "position": 28,
+    "utterance": "Aber hatten Sie jetzt am Wochenende anderweitig Stress?",
+    "classes": [
+      "SF17"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Die Angst vor dem Schwindel?"
+  },
+  {
+    "position": 29,
+    "utterance": "Und Anfälle sind jetzt aber die Schwindelanfälle?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF17"
+    ],
+    "previous_utterance": "Aber hatten Sie jetzt am Wochenende anderweitig Stress?"
+  },
+  {
+    "position": 30,
+    "utterance": "Ok. Jetzt gerade bei Ihrer Hausärztin waren Sie da bewusstlos? Hatten Sie das Gefühl, Sie hätten Zeit verloren?",
+    "classes": [
+      "MS09"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und Anfälle sind jetzt aber die Schwindelanfälle?"
+  },
+  {
+    "position": 31,
+    "utterance": "Schwer zu sagen. Und am Wochenende? Dass Sie da irgendwie gemerkt habe, dass Ihnen schwindelig ist oder wachen Sie am Boden auf?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS09"
+    ],
+    "previous_utterance": "Ok. Jetzt gerade bei Ihrer Hausärztin waren Sie da bewusstlos? Hatten Sie das Gefühl, Sie hätten Zeit verloren?"
+  },
+  {
+    "position": 32,
+    "utterance": "Das nicht. Wie sieht es denn bei Ihnen mit Vorerkrankungen aus?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Schwer zu sagen. Und am Wochenende? Dass Sie da irgendwie gemerkt habe, dass Ihnen schwindelig ist oder wachen Sie am Boden auf?"
+  },
+  {
+    "position": 33,
+    "utterance": "Also Sie wurden an dem Blinddarm operiert und an den Mandeln?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Das nicht. Wie sieht es denn bei Ihnen mit Vorerkrankungen aus?"
+  },
+  {
+    "position": 34,
+    "utterance": "Ok. Sonst hatten Sie keine Operationen mehr?",
+    "classes": [
+      "PH02"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also Sie wurden an dem Blinddarm operiert und an den Mandeln?"
+  },
+  {
+    "position": 35,
+    "utterance": "Haben Sie Bluthochdruck?",
+    "classes": [
+      "PH07"
+    ],
+    "previous_classes": [
+      "MV02"
+    ],
+    "previous_utterance": "Ok. Sonst hatten Sie keine Operationen mehr?"
+  },
+  {
+    "position": 36,
+    "utterance": "Nehmen Sie da Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "MV07"
+    ],
+    "previous_utterance": "Haben Sie Bluthochdruck?"
+  },
+  {
+    "position": 37,
+    "utterance": "Also nehmen Sie gar keine Medikamente regelmäßg ein?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Nehmen Sie da Medikamente?"
+  },
+  {
+    "position": 38,
+    "utterance": "Andere Herzerkrankungen? ",
+    "classes": [
+      "PH08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Also nehmen Sie gar keine Medikamente regelmäßg ein?"
+  },
+  {
+    "position": 39,
+    "utterance": "Diabetes? ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV08"
+    ],
+    "previous_utterance": "Andere Herzerkrankungen? "
+  },
+  {
+    "position": 40,
+    "utterance": "Und das bei Ihrer Hausärztin war einfach bei der Blutentnahme?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Diabetes? "
+  },
+  {
+    "position": 41,
+    "utterance": "Dabei haben Sie sonst keine Problem?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und das bei Ihrer Hausärztin war einfach bei der Blutentnahme?"
+  },
+  {
+    "position": 42,
+    "utterance": "In Ihrer Familie sind da Erkrankungen bekannt?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Dabei haben Sie sonst keine Problem?"
+  },
+  {
+    "position": 43,
+    "utterance": "Ok. Haben Sie Allergien?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "In Ihrer Familie sind da Erkrankungen bekannt?"
+  },
+  {
+    "position": 44,
+    "utterance": "Darf ich Sie fragen, was Sie machen? Sind Sie noch berufstätig?",
+    "classes": [
+      "SF06"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Ok. Haben Sie Allergien?"
+  },
+  {
+    "position": 45,
+    "utterance": "Wann waren Sie in Syrien?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SF06"
+    ],
+    "previous_utterance": "Darf ich Sie fragen, was Sie machen? Sind Sie noch berufstätig?"
+  },
+  {
+    "position": 46,
+    "utterance": "Also auch schon ein bisschen her. Und Sie leben mit Ihrer Frau zusammen?",
+    "classes": [
+      "SF08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wann waren Sie in Syrien?"
+  },
+  {
+    "position": 47,
+    "utterance": "Wie sieht das bei Ihnen mit Genussmitteln aus? Alkohol.",
+    "classes": [
+      "SF04"
+    ],
+    "previous_classes": [
+      "SF08"
+    ],
+    "previous_utterance": "Also auch schon ein bisschen her. Und Sie leben mit Ihrer Frau zusammen?"
+  }
+]

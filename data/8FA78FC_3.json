@@ -1,0 +1,409 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Frau Bircher, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Seit heute morgen haben Sie gesagt ist die Atemnot?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "War denn gestern Abend irgendwas besonderes?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Seit heute morgen haben Sie gesagt ist die Atemnot?"
+  },
+  {
+    "position": 6,
+    "utterance": "Und wurde das jetzt kontinuierlich schlimmer mit der Atmenot oder ist das eigentlich schon die ganze Zeit gleich schlimm?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "War denn gestern Abend irgendwas besonderes?"
+  },
+  {
+    "position": 7,
+    "utterance": "War denn in letzter Zeit irgendwas das Sie sich nicht Bewegen konnten?",
+    "classes": [
+      "PH04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und wurde das jetzt kontinuierlich schlimmer mit der Atmenot oder ist das eigentlich schon die ganze Zeit gleich schlimm?"
+  },
+  {
+    "position": 8,
+    "utterance": "Sie sind 70 Jahre alt, stimmt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV04"
+    ],
+    "previous_utterance": "War denn in letzter Zeit irgendwas das Sie sich nicht Bewegen konnten?"
+  },
+  {
+    "position": 9,
+    "utterance": "Und Sie arbeiten immer noch auf dem Bauernhof?",
+    "classes": [
+      "SF07"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sie sind 70 Jahre alt, stimmt?"
+  },
+  {
+    "position": 10,
+    "utterance": "Haben Sie denn auch Schmerzen?",
+    "classes": [
+      "MS02"
+    ],
+    "previous_classes": [
+      "SF07"
+    ],
+    "previous_utterance": "Und Sie arbeiten immer noch auf dem Bauernhof?"
+  },
+  {
+    "position": 11,
+    "utterance": "Genau, ok. Und ausstrahlen tut das auch nirgendwo hin? Es ist einfach so ein bisschen Druck?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "HS02"
+    ],
+    "previous_utterance": "Haben Sie denn auch Schmerzen?"
+  },
+  {
+    "position": 12,
+    "utterance": "Können Sie mir zeigen wo genau der Druck ist?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Genau, ok. Und ausstrahlen tut das auch nirgendwo hin? Es ist einfach so ein bisschen Druck?"
+  },
+  {
+    "position": 13,
+    "utterance": "Mittig?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Können Sie mir zeigen wo genau der Druck ist?"
+  },
+  {
+    "position": 14,
+    "utterance": "Hatten Sie das schonmal",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Mittig?"
+  },
+  {
+    "position": 15,
+    "utterance": "Ist denn bei Ihnen am Herzen irgendwas bekannt?",
+    "classes": [
+      "PH08"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Hatten Sie das schonmal"
+  },
+  {
+    "position": 16,
+    "utterance": "Waren Sie da schonmal bei nem Arzt der da das abklärt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV08"
+    ],
+    "previous_utterance": "Ist denn bei Ihnen am Herzen irgendwas bekannt?"
+  },
+  {
+    "position": 17,
+    "utterance": "Wann waren Sie da zuletzt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Waren Sie da schonmal bei nem Arzt der da das abklärt?"
+  },
+  {
+    "position": 18,
+    "utterance": "Beim Kardiologen oder beim Hausarzt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wann waren Sie da zuletzt?"
+  },
+  {
+    "position": 19,
+    "utterance": "Der Hausarzt, und wissen Sie auch was der für Untersuchungen gemacht hat?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Beim Kardiologen oder beim Hausarzt?"
+  },
+  {
+    "position": 20,
+    "utterance": "Wurde denn schonmal so ein Ultraschall vom Herzen gemacht?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Der Hausarzt, und wissen Sie auch was der für Untersuchungen gemacht hat?"
+  },
+  {
+    "position": 21,
+    "utterance": "Ok, und da war auch nie was auffällig?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wurde denn schonmal so ein Ultraschall vom Herzen gemacht?"
+  },
+  {
+    "position": 22,
+    "utterance": "Ok, haben Sie Schwellungen von den Beinen bemerkt?",
+    "classes": [
+      "SR12"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, und da war auch nie was auffällig?"
+  },
+  {
+    "position": 23,
+    "utterance": "Sieht wunderbar aus ",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE12"
+    ],
+    "previous_utterance": "Ok, haben Sie Schwellungen von den Beinen bemerkt?"
+  },
+  {
+    "position": 24,
+    "utterance": "Hatten Sie Übelkeit?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Sieht wunderbar aus "
+  },
+  {
+    "position": 25,
+    "utterance": "Seit gestern Abend oder seit heute morgen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Hatten Sie Übelkeit?"
+  },
+  {
+    "position": 26,
+    "utterance": "Waren Sie denn in letzter Zeit Erkältet gewesen?",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Seit gestern Abend oder seit heute morgen?"
+  },
+  {
+    "position": 27,
+    "utterance": "Also Sie waren Topfit bis gestern Abend?",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "Waren Sie denn in letzter Zeit Erkältet gewesen?"
+  },
+  {
+    "position": 28,
+    "utterance": "Ist denn an der Niere irgendwas vorher bekannt?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "Also Sie waren Topfit bis gestern Abend?"
+  },
+  {
+    "position": 29,
+    "utterance": "Niere auch alles gut",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ist denn an der Niere irgendwas vorher bekannt?"
+  },
+  {
+    "position": 30,
+    "utterance": "Das heißt Sie haben überhaupt keine Vorerkrankungen, außer dem Zucker?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Niere auch alles gut"
+  },
+  {
+    "position": 31,
+    "utterance": "Was nehmen Sie gegen den Blutdruck?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Das heißt Sie haben überhaupt keine Vorerkrankungen, außer dem Zucker?"
+  },
+  {
+    "position": 32,
+    "utterance": "Bisoprolol?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Was nehmen Sie gegen den Blutdruck?"
+  },
+  {
+    "position": 33,
+    "utterance": "Und dann nur Bisoprolol? Sonst nichts?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Bisoprolol?"
+  },
+  {
+    "position": 34,
+    "utterance": "Haben Sie denn irgendwelche Allergien?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Und dann nur Bisoprolol? Sonst nichts?"
+  },
+  {
+    "position": 35,
+    "utterance": "Müssen Sie öfter Nachts häufig auf die Toilette? Oder war das jetzt zum ersten mal?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Haben Sie denn irgendwelche Allergien?"
+  },
+  {
+    "position": 36,
+    "utterance": "Ok, also ich würde jetzt noch ein Bild mal vom Herz machen und ein Röntenbild",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Müssen Sie öfter Nachts häufig auf die Toilette? Oder war das jetzt zum ersten mal?"
+  },
+  {
+    "position": 37,
+    "utterance": "Wir würden Sie auch nicht festhalten. Ich würde nur raten da wir jetzt in der Notaufnahme sind das wir jetzt erstmal noch ein paar Untersuchungen machen. Nicht was weh tut. Auch noch Blut abnehmen, das ist bisschen unangenehm.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Ok, also ich würde jetzt noch ein Bild mal vom Herz machen und ein Röntenbild"
+  },
+  {
+    "position": 38,
+    "utterance": "Genau das da mal wieder Luft reingeht. Dann schauen wir uns das Blutbild an, machen ein Bild vom Herzen und von der Lunge, um mal zu sehen was da los ist und dann würde ich aufjedenfall nochmal mit Ihnen reden .",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Wir würden Sie auch nicht festhalten. Ich würde nur raten da wir jetzt in der Notaufnahme sind das wir jetzt erstmal noch ein paar Untersuchungen machen. Nicht was weh tut. Auch noch Blut abnehmen, das ist bisschen unangenehm."
+  },
+  {
+    "position": 39,
+    "utterance": "Gut Frau Bircher ich würde jetzt die Untersuchungen mit Ihnen machen und dann danach nochmal mit Ihnen reden. Hab zur Kenntniss genommen, dass Sie gerne wieder hier raus würden, aber wir müssen uns aufjedenfall um das Herz ein bisschen kümmern und um die Lunge und schauen das da  wieder Luft reingeht.",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Genau das da mal wieder Luft reingeht. Dann schauen wir uns das Blutbild an, machen ein Bild vom Herzen und von der Lunge, um mal zu sehen was da los ist und dann würde ich aufjedenfall nochmal mit Ihnen reden ."
+  }
+]

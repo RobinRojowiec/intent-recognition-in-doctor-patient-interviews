@@ -1,0 +1,312 @@
+[
+  {
+    "position": 2,
+    "utterance": "\"Guten Morgen Frau Klein, ich bin heute für Sie zuständig in der Notaufnahme. Was führt Sie denn zu mir?\"",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Startet mit lesen der Vorinformationen"
+  },
+  {
+    "position": 4,
+    "utterance": "Haben Sie Schmerzen?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Cut durch Sicherheitsfrage bei der Verdachtsdiagnose"
+  },
+  {
+    "position": 5,
+    "utterance": "Beim ein- oder ausatmen?",
+    "classes": [
+      "MS01"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Haben Sie Schmerzen?"
+  },
+  {
+    "position": 6,
+    "utterance": "Kam das jetzt plötzlich? Oder war das schon länger das Sie irgendwie Atemnot hätten?",
+    "classes": [
+      "MS06"
+    ],
+    "previous_classes": [
+      "HS01"
+    ],
+    "previous_utterance": "Beim ein- oder ausatmen?"
+  },
+  {
+    "position": 7,
+    "utterance": "Hatten Sie einen Infekt in letzter Zeit? ",
+    "classes": [
+      "PH13"
+    ],
+    "previous_classes": [
+      "HS06"
+    ],
+    "previous_utterance": "Kam das jetzt plötzlich? Oder war das schon länger das Sie irgendwie Atemnot hätten?"
+  },
+  {
+    "position": 8,
+    "utterance": "Oder Fieber?",
+    "classes": [
+      "SR08"
+    ],
+    "previous_classes": [
+      "MV13"
+    ],
+    "previous_utterance": "Hatten Sie einen Infekt in letzter Zeit? "
+  },
+  {
+    "position": 9,
+    "utterance": "Haben Sie jetzt Fieber?",
+    "classes": [
+      "SR08"
+    ],
+    "previous_classes": [
+      "SUE08"
+    ],
+    "previous_utterance": "Oder Fieber?"
+  },
+  {
+    "position": 10,
+    "utterance": "Hatten Sie in den letzten Wochen irgendeine OP oder waren Sie länger Bettlägrig?",
+    "classes": [
+      "PH04",
+      "MV03"
+    ],
+    "previous_classes": [
+      "SUE08"
+    ],
+    "previous_utterance": "Haben Sie jetzt Fieber?"
+  },
+  {
+    "position": 11,
+    "utterance": "Haben Sie Vorerkrankungen?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "MV04",
+      "MV03"
+    ],
+    "previous_utterance": "Hatten Sie in den letzten Wochen irgendeine OP oder waren Sie länger Bettlägrig?"
+  },
+  {
+    "position": 12,
+    "utterance": "Was nehmen Sie für Medikamente?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Haben Sie Vorerkrankungen?"
+  },
+  {
+    "position": 13,
+    "utterance": "Aber Sie nehmen eigentlich nur für den Blutdruck die Medikamente? Sonst haben Sie eigentlich keine?",
+    "classes": [
+      "AM02"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Was nehmen Sie für Medikamente?"
+  },
+  {
+    "position": 14,
+    "utterance": "Haben Sie Operationen gehabt?",
+    "classes": [
+      "PH02"
+    ],
+    "previous_classes": [
+      "AM02"
+    ],
+    "previous_utterance": "Aber Sie nehmen eigentlich nur für den Blutdruck die Medikamente? Sonst haben Sie eigentlich keine?"
+  },
+  {
+    "position": 15,
+    "utterance": "Ist bei Ihnen eine Gerinnungsstörung bekannt?",
+    "classes": [
+      "PH05"
+    ],
+    "previous_classes": [
+      "MV02"
+    ],
+    "previous_utterance": "Haben Sie Operationen gehabt?"
+  },
+  {
+    "position": 16,
+    "utterance": "Oder in der Familie?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "MV05"
+    ],
+    "previous_utterance": "Ist bei Ihnen eine Gerinnungsstörung bekannt?"
+  },
+  {
+    "position": 17,
+    "utterance": "Haben Sie sonst Probleme mit der Schilddrüse gehabt? Eine Über- oder Unterfunktion?",
+    "classes": [
+      "PH12"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "Oder in der Familie?"
+  },
+  {
+    "position": 18,
+    "utterance": "Mit dem Herz und mit der Lunge gabs auch keine Probleme?",
+    "classes": [
+      "PH08"
+    ],
+    "previous_classes": [
+      "MV12"
+    ],
+    "previous_utterance": "Haben Sie sonst Probleme mit der Schilddrüse gehabt? Eine Über- oder Unterfunktion?"
+  },
+  {
+    "position": 19,
+    "utterance": "Eine Thrombose oder so hatten Sie zum Beispiel nicht?",
+    "classes": [
+      "PH06"
+    ],
+    "previous_classes": [
+      "MV08"
+    ],
+    "previous_utterance": "Mit dem Herz und mit der Lunge gabs auch keine Probleme?"
+  },
+  {
+    "position": 20,
+    "utterance": "Haben Sie Allergien?",
+    "classes": [
+      "AM04"
+    ],
+    "previous_classes": [
+      "MV06"
+    ],
+    "previous_utterance": "Eine Thrombose oder so hatten Sie zum Beispiel nicht?"
+  },
+  {
+    "position": 21,
+    "utterance": "In der Familie gibt’s da bestimmte Erbkrankheiten?",
+    "classes": [
+      "SF10"
+    ],
+    "previous_classes": [
+      "AM04"
+    ],
+    "previous_utterance": "Haben Sie Allergien?"
+  },
+  {
+    "position": 22,
+    "utterance": "Oder ist da jemand junge gestorben?",
+    "classes": [
+      "SF01"
+    ],
+    "previous_classes": [
+      "SF10"
+    ],
+    "previous_utterance": "In der Familie gibt’s da bestimmte Erbkrankheiten?"
+  },
+  {
+    "position": 23,
+    "utterance": "Diabetes bekannt?",
+    "classes": [
+      "PH01"
+    ],
+    "previous_classes": [
+      "SF01"
+    ],
+    "previous_utterance": "Oder ist da jemand junge gestorben?"
+  },
+  {
+    "position": 24,
+    "utterance": "Ist Ihr Körpergewicht konstant in letzter Zeit?",
+    "classes": [
+      "SR01"
+    ],
+    "previous_classes": [
+      "MV01"
+    ],
+    "previous_utterance": "Diabetes bekannt?"
+  },
+  {
+    "position": 25,
+    "utterance": "Das Schwitzen in der Nacht. Hatten Sie das nur diese Nacht oder hatten Sie das schon vorher?",
+    "classes": [
+      "SR02"
+    ],
+    "previous_classes": [
+      "SUE01"
+    ],
+    "previous_utterance": "Ist Ihr Körpergewicht konstant in letzter Zeit?"
+  },
+  {
+    "position": 26,
+    "utterance": "Müssen Sie jetzt in der Nacht auch öfter aufs WC gehen?",
+    "classes": [
+      "OTHER"
+    ],
+    "previous_classes": [
+      "SUE02"
+    ],
+    "previous_utterance": "Das Schwitzen in der Nacht. Hatten Sie das nur diese Nacht oder hatten Sie das schon vorher?"
+  },
+  {
+    "position": 27,
+    "utterance": "Ist es für Sie besser, wenn Sie.. Also bessert sich der Schmerz wenn Sie liegen?",
+    "classes": [
+      "MS08"
+    ],
+    "previous_classes": [
+      "OTHER"
+    ],
+    "previous_utterance": "Müssen Sie jetzt in der Nacht auch öfter aufs WC gehen?"
+  },
+  {
+    "position": 28,
+    "utterance": "Gabs sonst in der Familie zum Beispiel ein Herzinfarkt?",
+    "classes": [
+      "SF02"
+    ],
+    "previous_classes": [
+      "HS08"
+    ],
+    "previous_utterance": "Ist es für Sie besser, wenn Sie.. Also bessert sich der Schmerz wenn Sie liegen?"
+  },
+  {
+    "position": 29,
+    "utterance": "Hatten Sie in den… Sind Sie in letzter Zeit irgendwie einen langen Flug gehabt ?",
+    "classes": [
+      "SF11"
+    ],
+    "previous_classes": [
+      "SF02"
+    ],
+    "previous_utterance": "Gabs sonst in der Familie zum Beispiel ein Herzinfarkt?"
+  },
+  {
+    "position": 30,
+    "utterance": "Fühlen Sie sich nicht mehr so fit wie vorher? So Leistung. Also hat Ihre Leistung abgenommen?",
+    "classes": [
+      "SR04"
+    ],
+    "previous_classes": [
+      "SF11"
+    ],
+    "previous_utterance": "Hatten Sie in den… Sind Sie in letzter Zeit irgendwie einen langen Flug gehabt ?"
+  }
+]
